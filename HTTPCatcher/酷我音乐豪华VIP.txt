@@ -1,0 +1,72 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "matchValue" : "\"isYearUser\":\"0\"",
+      "value" : "\"isYearUser\":\"2\"",
+      "field" : "",
+      "destiontion" : "response"
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "matchValue" : "\"vipExpire\":\"0\"",
+      "value" : "\"vipExpire\":\"1738717749000\"",
+      "field" : "",
+      "destiontion" : "response"
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "matchValue" : "\"vipmExpire\":\"0\"",
+      "value" : "\"vipmExpire\":\"1738717749000\"",
+      "field" : "",
+      "destiontion" : "response"
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "matchValue" : "\"vip3Expire\":\"0\"",
+      "value" : "\"vip3Expire\":\"1738717749000\"",
+      "field" : "",
+      "destiontion" : "response"
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "matchValue" : "\"vipOverSeasExpire\":\"0\"",
+      "value" : "\"vipOverSeasExpire\":\"1738717749000\"",
+      "field" : "",
+      "destiontion" : "response"
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "matchValue" : "\"isNewUser\":\"1\"",
+      "value" : "\"isNewUser\":\"2\"",
+      "field" : "",
+      "destiontion" : "response"
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "matchValue" : "\"vipLuxuryExpire\":\"0\"",
+      "value" : "\"vipLuxuryExpire\":\"1738717749000\"",
+      "field" : "",
+      "destiontion" : "response"
+    }
+  ],
+  "enabled" : true,
+  "name" : "ø·Œ““Ù¿÷∫¿ª™VIP",
+  "locations" : [
+    {
+      "path" : "\/vip\/v2\/user\/vip",
+      "query" : "",
+      "host" : "vip1.kuwo.cn",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 0
+    }
+  ]
+}

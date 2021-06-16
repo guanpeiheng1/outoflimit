@@ -1,0 +1,68 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isVip\":\"1\"",
+      "matchValue" : "\"isVip\":\"0\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isLifeTimeVip\":\"1\"",
+      "matchValue" : "\"isLifeTimeVip\":\"0\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"is_vip\":\"1\"",
+      "matchValue" : "\"is_vip\":\"0\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"adv_style\":\"0\"",
+      "matchValue" : "\"adv_style\":\"1\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "Barbital",
+  "locations" : [
+    {
+      "path" : "\/api\/v1\/user\/my-center",
+      "query" : "",
+      "host" : "xiaoshuo.qm989.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/api\/v1\/user\/get-user-info",
+      "query" : "",
+      "host" : "xiaoshuo.qm989.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/api\/v1\/reader-adv",
+      "query" : "",
+      "host" : "xiaoshuo.qm989.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Apple News
+USER-AGENT,AppleNews*,Apple News
+DOMAIN-SUFFIX,apple.news,Apple News
+DOMAIN,news-events.apple.com,Apple News
+DOMAIN,news-edge.apple.com,Apple News
+DOMAIN,apple.comscoreresearch.com,Apple News
+DOMAIN,play.itunes.apple.com,Apple News
+DOMAIN,play-cdn.itunes-apple.com.akadns.net,Apple News

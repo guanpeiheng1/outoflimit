@@ -1,0 +1,36 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"tradeEndTime\":2377440000000",
+      "matchValue" : "\"tradeEndTime\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"canGain\":true",
+      "matchValue" : "\"canGain\":\\w+",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "网易蜗牛@Barbital",
+  "locations" : [
+    {
+      "path" : "\/gain\/readtime\/info.json",
+      "query" : "",
+      "host" : "p.du.163.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}
+
+注明:原作者笙弦写的锤子版，我改的网球版

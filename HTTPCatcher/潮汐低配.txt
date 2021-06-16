@@ -1,0 +1,63 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"is_paying_premium_user\":true",
+      "matchValue" : "\"is_paying_premium_user\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"is_lifetime_member\":true",
+      "matchValue" : "\"is_lifetime_member\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"expired_at\":2283431779",
+      "matchValue" : "\"expired_at\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"created_at\":1558081388",
+      "matchValue" : "\"created_at\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"end_time\":3640867200",
+      "matchValue" : "\"end_time\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "潮汐低配@Barbital",
+  "locations" : [
+    {
+      "path" : "\/v1\/users\/self\/profile",
+      "query" : "",
+      "host" : "tide-api.moreless.io",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}
+
+付费铃声无法pj，所以是低配plus，需要的用

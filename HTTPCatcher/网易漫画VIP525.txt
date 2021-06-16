@@ -1,0 +1,121 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"level\":\"VIP8\"",
+      "matchValue" : "\"level\":\"VIP0\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"score\":9999",
+      "matchValue" : "\"score\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"hongbao\":9999",
+      "matchValue" : "\"hongbao\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"money\":9999",
+      "matchValue" : "\"money\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"userType\":1",
+      "matchValue" : "\"userType\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"realVipType\":1",
+      "matchValue" : "\"realVipType\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"to\":7262649741721",
+      "matchValue" : "\"to\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"from\":1543574359721",
+      "matchValue" : "\"from\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"baoyue\":1,",
+      "matchValue" : "\"baoyue\":0,",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "网易漫画VIP525@無语",
+  "locations" : [
+    {
+      "path" : "\/getUserProfile.json",
+      "query" : "",
+      "host" : "api.mh.163.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/source\/detail.json",
+      "query" : "",
+      "host" : "api.mh.163.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/getUserProfile.json",
+      "query" : "",
+      "host" : "api-163.biliapi.net",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/source\/detail.json",
+      "query" : "",
+      "host" : "api-163.biliapi.net",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}

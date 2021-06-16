@@ -1,0 +1,36 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"is_member\":true",
+      "matchValue" : "\"is_member\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"member_expired_at\":2283431779",
+      "matchValue" : "\"member_expired_at\":null",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "句读@Barbital",
+  "locations" : [
+    {
+      "path" : "\/api\/v5\/third_party\/wechat",
+      "query" : "",
+      "host" : "judouapp.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}
+
+商店搜句读，用微信登陆就可以了

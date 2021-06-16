@@ -1,0 +1,46 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_forever\":\"true\"",
+      "matchValue" : "\"vip_forever\":\"false\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"end_at\":\"2099-05-22 15:20:55\"",
+      "matchValue" : "\"end_at\":\"\\d{4}[-\/]\\d{2}[-\/]\\d{2} \\d{2}:\\d{2}:\\d{2}\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"remain_second\":999999431484",
+      "matchValue" : "\"remain_second\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "简单冥想@Barbital",
+  "locations" : [
+    {
+      "path" : "\/subscription",
+      "query" : "",
+      "host" : "api.simplemeditation.cn",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}
+
+
+商店搜简单冥想

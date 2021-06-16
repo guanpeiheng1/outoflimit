@@ -1,0 +1,27 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "{\"msg\":\"激活成功\",\"data\":null,\"code\":\"1\"}",
+      "matchValue" : "欢迎进去我的家园",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "微信百花香真香",
+  "locations" : [
+    {
+      "path" : "\/wsbhx\/sp\/wuhuqq66837875.php",
+      "query" : "",
+      "host" : "",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}
+先开启规则，激活码随便输
+地址:http://bhx.515go.cn

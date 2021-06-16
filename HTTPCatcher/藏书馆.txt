@@ -1,0 +1,244 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isPurchaseVip\":1",
+      "matchValue" : "\"isPurchaseVip\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipMark\":1",
+      "matchValue" : "\"vipMark\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"collectEndDate\":20990511",
+      "matchValue" : "\"collectEndDate\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"extBorrowDaysFlag\":1",
+      "matchValue" : "\"extBorrowDaysFlag\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"borrowNum\":9999",
+      "matchValue" : "\"borrowNum\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"autoReadFlag\":1",
+      "matchValue" : "\"autoReadFlag\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"receiveBookEndDate\":20990909",
+      "matchValue" : "\"receiveBookEndDate\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"adFlag\":1",
+      "matchValue" : "\"adFlag\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"adEndDate\":20990511",
+      "matchValue" : "\"adEndDate\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"autoReadEndDate\":20990511",
+      "matchValue" : "\"autoReadEndDate\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"extBorrowDaysEndDate\":20990511",
+      "matchValue" : "\"extBorrowDaysEndDate\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"autoReadNum\":9999",
+      "matchValue" : "\"autoReadNum\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"courseListenFlag\":1",
+      "matchValue" : "\"courseListenFlag\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"receiveBookFlag\":1",
+      "matchValue" : "\"receiveBookFlag\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"courseTopicFlag\":1",
+      "matchValue" : "\"courseTopicFlag\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"borrowEndDate\":20990511",
+      "matchValue" : "\"borrowEndDate\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"courseListenEndDate\":20990511",
+      "matchValue" : "\"courseListenEndDate\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"borrowFlag\":1",
+      "matchValue" : "\"borrowFlag\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"noteExportFlag\":1",
+      "matchValue" : "\"noteExportFlag\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"quickSearchEndDate\":20990511",
+      "matchValue" : "\"quickSearchEndDate\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipMakEndDate\":20990511",
+      "matchValue" : "\"vipMakEndDate\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"collectFlag\":1",
+      "matchValue" : "\"collectFlag\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"noteExportEndDate\":20990511",
+      "matchValue" : "\"noteExportEndDate\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"courseTopEndDate\":20990511",
+      "matchValue" : "\"courseTopEndDate\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"courseListenNum\":9999",
+      "matchValue" : "\"courseListenNum\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "藏书馆@Barbital",
+  "locations" : [
+    {
+      "path" : "\/api\/user_microservice\/UserMicroService\/user\/privileges",
+      "query" : "",
+      "host" : "data.geeboodata.com",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 8768
+    }
+  ]
+}
+
+
+商店搜索图书馆，解锁vip听书看书特权

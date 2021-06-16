@@ -1,0 +1,101 @@
+{
+  "rules" : [
+    {
+      "action" : "path",
+      "matchField" : "",
+      "field" : "",
+      "value" : "更多网球规则加群634413589",
+      "matchValue" : "\/gdt_mview.fcg",
+      "destiontion" : "request",
+      "isRegex" : false
+    },
+    {
+      "action" : "path",
+      "matchField" : "",
+      "field" : "",
+      "value" : "更多网球规则加群634413589",
+      "matchValue" : "\/agent\/spreadscreen_config.php",
+      "destiontion" : "request",
+      "isRegex" : false
+    },
+    {
+      "action" : "path",
+      "matchField" : "",
+      "field" : "",
+      "value" : "更多网球规则加群634413589",
+      "matchValue" : "\/agent\/getAd",
+      "destiontion" : "request",
+      "isRegex" : false
+    },
+    {
+      "action" : "path",
+      "matchField" : "",
+      "field" : "",
+      "value" : "更多网球规则加群634413589",
+      "matchValue" : "\/agent\/agent1.php",
+      "destiontion" : "request",
+      "isRegex" : false
+    },
+    {
+      "action" : "path",
+      "matchField" : "",
+      "field" : "",
+      "value" : "更多网球规则加群634413589",
+      "matchValue" : "\/agent\/adNative_config.php",
+      "destiontion" : "request",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "漫画帮(荟聚动漫)去广告@無语",
+  "locations" : [
+    {
+      "path" : "\/gdt_mview.fcg",
+      "query" : "",
+      "host" : "mi.gdt.qq.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/agent\/spreadscreen_config.php",
+      "query" : "",
+      "host" : "config.adview.cn",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/agent\/agent1.php",
+      "query" : "",
+      "host" : "config.adview.cn",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/agent\/getAd",
+      "query" : "",
+      "host" : "adfill.adview.cn",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/agent\/getAd",
+      "query" : "",
+      "host" : "bid.adview.cn",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/agent\/adNative_config.php",
+      "query" : "",
+      "host" : "config.adview.cn",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "rules" : [
+    {
+      "action" : "modify-query",
+      "matchField" : "",
+      "field" : "",
+      "value" : "JP",
+      "matchValue" : "CN",
+      "destiontion" : "request",
+      "isRegex" : false
+    },
+    {
+      "action" : "modify-query",
+      "matchField" : "version_code",
+      "field" : "",
+      "value" : "8.2.1",
+      "matchValue" : "",
+      "destiontion" : "request",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "TikTok",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "*.musical.ly",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    },
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "*.tiktokv.com",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}

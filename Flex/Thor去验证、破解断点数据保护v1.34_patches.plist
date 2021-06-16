@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>patches</key>
+	<array>
+		<dict>
+			<key>UUID</key>
+			<string>52B1AF8A-0391-4B44-B3E8-2D339436DA15</string>
+			<key>apiVersion</key>
+			<integer>3</integer>
+			<key>appIdentifier</key>
+			<string>com.pixelcyber.dake.thor</string>
+			<key>author</key>
+			<string>linchurong000</string>
+			<key>cloudDescription</key>
+			<string>去验证和断点数据保护</string>
+			<key>cloudID</key>
+			<integer>49676</integer>
+			<key>downloadDate</key>
+			<integer>1566179862</integer>
+			<key>name</key>
+			<string>Thor去验证、破解断点数据保护v1.34</string>
+			<key>switchedOn</key>
+			<true/>
+			<key>tableViewIndex</key>
+			<integer>5</integer>
+			<key>units</key>
+			<array>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>AppReceiptValidator</string>
+						<key>displayName</key>
+						<string>-(void) prepareVerify</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>prepareVerify</string>
+						<key>typeEncoding</key>
+						<string>v16@0:8</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(void) prepareVerify</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>FilterBPListVC</string>
+						<key>displayName</key>
+						<string>-(void) setRightsProtected:(bool)</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>setRightsProtected:</string>
+						<key>typeEncoding</key>
+						<string>v20@0:8B16</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(void) setRightsProtected:(bool)</string>
+					<key>overrides</key>
+					<array>
+						<dict>
+							<key>argument</key>
+							<integer>1</integer>
+							<key>type</key>
+							<dict>
+								<key>subtype</key>
+								<integer>0</integer>
+								<key>type</key>
+								<integer>6</integer>
+							</dict>
+							<key>value</key>
+							<dict>
+								<key>type</key>
+								<integer>6</integer>
+								<key>value</key>
+								<false/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

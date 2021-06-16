@@ -1,0 +1,71 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"remainNormal\":9999",
+      "matchValue" : "\"remainNormal\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"remainTranslate\":99999",
+      "matchValue" : "\"remainTranslate\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"remainBatch\":9999",
+      "matchValue" : "\"remainBatch\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"remainShare\":99999",
+      "matchValue" : "\"remainShare\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isVipGone\":0",
+      "matchValue" : "\"isVipGone\":1",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "白描修复版@Barbital",
+  "locations" : [
+    {
+      "path" : "\/api\/v2.user\/appLaunchWithUser",
+      "query" : "",
+      "host" : "baimiao.uzero.cn",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/api\/recognize\/recognize",
+      "query" : "",
+      "host" : "baimiao.uzero.cn",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}
+
+商店搜白描

@@ -1,0 +1,230 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipoverday\":7956873178163",
+      "matchValue" : "\"vipoverday\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"Uviptime\":7956873178163",
+      "matchValue" : "\"Uviptime\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"diamonds\":999999",
+      "matchValue" : "\"diamonds\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"coins\":999999",
+      "matchValue" : "\"coins\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"diamondViptime\":7956873178163",
+      "matchValue" : "\"diamondViptime\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isvip\":1",
+      "matchValue" : "\"isvip\":\\d",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"goldVipTime\":7956873178163",
+      "matchValue" : "\"goldVipTime\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"diamondVipoverday\":7956873178163",
+      "matchValue" : "\"diamondVipoverday\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"is_vip\":true",
+      "matchValue" : "\"is_vip\":\\w+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"gold_ expire_time\":7956873178163",
+      "matchValue" : "\"gold_expire_time\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"Ulevel\":100",
+      "matchValue" : "\"Ulevel\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"goldVipoverday\":7956873178163",
+      "matchValue" : "\"goldVipoverday\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"Cticket\":999999",
+      "matchValue" : "\"Cticket\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isfreetime\":true",
+      "matchValue" : "\"isfreetime\":\\w+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"expiry\":7956877579",
+      "matchValue" : "\"expiry\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"status\":0",
+      "matchValue" : "\"status\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"msg\":\"购买该章节成功\"",
+      "matchValue" : "\"msg\":\"\\w+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"viplevel\":100",
+      "matchValue" : "\"viplevel\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"level\":100",
+      "matchValue" : "\"level\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_level\":100",
+      "matchValue" : "\"vip_level\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"expire_time\":7956873178163",
+      "matchValue" : "\"expire_time\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"diamond_expire_time\":7956873178163",
+      "matchValue" : "\"diamond_expire_time\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "飒漫画VIP 605@無语",
+  "locations" : [
+    {
+      "path" : "\/userapi\/info\/v1\/getuserinfo",
+      "query" : "",
+      "host" : "m.samh.xndm.tech",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/api\/v1\/vip\/home_page",
+      "query" : "",
+      "host" : "m.samh.xndm.tech",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/api\/v1\/comics\/purchase_chapters_diamonds_coin",
+      "query" : "",
+      "host" : "m.samh.xndm.tech",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}

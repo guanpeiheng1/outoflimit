@@ -1,0 +1,48 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "\"data\":{\"uid\":141070,\"username\":\"17717717717\",\"avatar\":\"\\\/assets\\\/img\\\/avatar.png\",\"nickname_code\":\"OSTCUP\",\"nickname\":\"铅略恐\",\"is_ever\":0,\"end_time\":1554187492,\"is_end\":1}",
+      "value" : "\"data\":{\"uid\":141070,\"username\":\"88888888888\",\"avatar\":\"\\\/assets\\\/img\\\/avatar.png\",\"nickname_code\":\"SVIP\",\"nickname\":\"梦之泪殇\",\"is_ever\":1,\"end_time\": 4418011167,\"is_end\":1}",
+      "matchValue" : "\"data\":\\{.*?\\}",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"code\":0",
+      "matchValue" : "\"code\":.\\d",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "柠檬SVIP",
+  "locations" : [
+    {
+      "path" : "\/mobile\/user\/index",
+      "query" : "",
+      "host" : "www.nmzb52.com",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    },
+    {
+      "path" : "\/mobile\/index\/checkUser",
+      "query" : "",
+      "host" : "www.nmzb52.com",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}
+
+
+
+❤️❤️❤️不要复制这段话
+❤️❤️❤️柠檬：MZDKNO
+❤️❤️❤️http://www.htguoji.com

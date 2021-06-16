@@ -1,0 +1,27 @@
+{
+  "rules" : [
+
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"score\":\"5\"",
+      "matchValue" : "\"score\":\"\\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   },
+  ],
+  "enabled" : true,
+  "name" : "去水印大师",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 0
+    }
+  ]
+}
+此规则由过滤器转重写捷径完成 过滤器来自网络 捷径可以在捷径盒下载。

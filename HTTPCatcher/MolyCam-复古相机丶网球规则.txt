@@ -1,0 +1,39 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"data\":{\"isValid\":1,\"expiresTs\":2000000000}",
+      "matchValue" : "\"data\":\\{.*?\\}",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "MolyCam-复古相机丶网球规则",
+  "locations" : [
+    {
+      "path" : "\/apple\/iosVerifyReceipt.php",
+      "query" : "",
+      "host" : "",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}
+
+
+
+
+功能：解锁全部功能
+链接：http://t.cn/ESVa9Z5
+日期：2019 04 29
+说明：要一直开过滤器
+
+Ps：这个相机的专业功能着实挺贵的
+
+郑重声明：该破解规则仅供学习交流所用，切勿商用及非法用途，并在下载安装后于48小时内删除，否则造成的一切后果与本人无关！
+
+By：蔠點丶

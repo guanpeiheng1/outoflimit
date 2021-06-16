@@ -1,0 +1,28 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "{\n  更多网球规则加群371753413\n}",
+      "matchValue" : ".*",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "巨播暴力破解@無语",
+  "locations" : [
+    {
+      "path" : "\/user.php",
+      "query" : "",
+      "host" : "juhe.co",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}
+复制到上面符号为止，邀请码F88EC  
+注意，先登录账号，再开启过滤
+下载地址https://i.zz131.com/jubo?cs=

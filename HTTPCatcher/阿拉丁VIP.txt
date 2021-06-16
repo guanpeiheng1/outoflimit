@@ -1,0 +1,25 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "1768395990",
+      "matchValue" : "\\d{8,12}",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "阿拉丁神盒VIP",
+  "locations" : [
+    {
+      "path" : "\/login\/login\/veifys.html",
+      "query" : "",
+      "host" : "www.0797520.cn",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}

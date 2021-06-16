@@ -1,0 +1,25 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "energy\":99",
+      "matchValue" : "energy\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "微信成语小秀才",
+  "locations" : [
+    {
+      "path" : "\/game\/player\/reenter",
+      "query" : "",
+      "host" : "hchain.hortorgames.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>patches</key>
+	<array>
+		<dict>
+			<key>UUID</key>
+			<string>6FCA10DB-415A-4B17-9AA9-0784267FACC8</string>
+			<key>apiVersion</key>
+			<integer>3</integer>
+			<key>appIdentifier</key>
+			<string>com.translation.srt</string>
+			<key>appVersion</key>
+			<string>1.0.4</string>
+			<key>author</key>
+			<string>@MO 454503002</string>
+			<key>cloudDescription</key>
+			<string></string>
+			<key>name</key>
+			<string>Rain翻译 Patch</string>
+			<key>switchedOn</key>
+			<true/>
+			<key>units</key>
+			<array>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>BUUnionRequestModel</string>
+						<key>displayName</key>
+						<string>-(void) setAdSDKVersion:(id)</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>setAdSDKVersion:</string>
+						<key>typeEncoding</key>
+						<string>v24@0:8@16</string>
+					</dict>
+					<key>name</key>
+					<string>去广告优化</string>
+					<key>overrides</key>
+					<array>
+						<dict>
+							<key>argument</key>
+							<integer>1</integer>
+							<key>type</key>
+							<dict>
+								<key>subtype</key>
+								<integer>0</integer>
+								<key>type</key>
+								<integer>1</integer>
+							</dict>
+							<key>value</key>
+							<dict>
+								<key>type</key>
+								<integer>1</integer>
+								<key>value</key>
+								<string>(FLNULL)</string>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>BUUnionRequestModel</string>
+						<key>displayName</key>
+						<string>-(void) setAdslotsAry:(id)</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>setAdslotsAry:</string>
+						<key>typeEncoding</key>
+						<string>v24@0:8@16</string>
+					</dict>
+					<key>name</key>
+					<string>去广告优化</string>
+					<key>overrides</key>
+					<array>
+						<dict>
+							<key>argument</key>
+							<integer>1</integer>
+							<key>type</key>
+							<dict>
+								<key>subtype</key>
+								<integer>0</integer>
+								<key>type</key>
+								<integer>1</integer>
+							</dict>
+							<key>value</key>
+							<dict>
+								<key>type</key>
+								<integer>1</integer>
+								<key>value</key>
+								<string>(FLNULL)</string>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</array>
+</dict>
+	</array>
+</dict>
+</plist>

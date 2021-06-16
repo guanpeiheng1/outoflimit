@@ -1,0 +1,46 @@
+{
+  "rules" : [
+    {
+      "action" : "add-header",
+      "matchField" : "",
+      "field" : "\"U_Id\"",
+      "value" : "\"3366616\"",
+      "matchValue" : "",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"Msg\" : \"登录成功！\"",
+      "matchValue" : "\"Msg\" : \"未找到该条激活码！请检查无误后重新激活！\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"ret\" : \"0\"",
+      "matchValue" : "\"ret\" : \"-1005\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "魔考大师@Barbital",
+  "locations" : [
+    {
+      "path" : "\/IPhone\/RegisterActive.aspx",
+      "query" : "",
+      "host" : "soft.jzrc.net",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}
+
+
+破解激活码，随便输就行，商店搜

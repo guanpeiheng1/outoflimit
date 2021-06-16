@@ -1,0 +1,104 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isLuckyDay\":true",
+      "matchValue" : "\"isLuckyDay\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"value\":true",
+      "matchValue" : "\"value\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"data\":1",
+      "matchValue" : "\"data\":0",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isVip\":true",
+      "matchValue" : "\"isVip\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipEndTime\":\"2099-05-30\"",
+      "matchValue" : "\"vipEndTime\":\"\\d{4}[-\\\/]\\\\d{2}[-\\\/]\\\\d{2}\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"canWath\":true",
+      "matchValue" : "\"canWath\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "雪梨@巴比妥",
+  "locations" : [
+    {
+      "path" : "\/api\/luckyInfo\/GetLuckyInfoTime",
+      "query" : "",
+      "host" : "www.baidu.com2.club",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/api\/account\/IsVip",
+      "query" : "",
+      "host" : "www.baidu.com2.club",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/api\/Download\/CheckDownloadTorrent",
+      "query" : "",
+      "host" : "cn.baidu-ch.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/api\/cartoon\/VipInfo",
+      "query" : "",
+      "host" : "cn.baidu-ch.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/api\/Movie\/WatchMovie",
+      "query" : "",
+      "host" : "cn.baidu-ch.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}
+
+解锁vip中字播放，无播放次数限制

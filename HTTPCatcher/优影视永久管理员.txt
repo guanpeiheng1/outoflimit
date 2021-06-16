@@ -1,0 +1,43 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"time\":-1",
+      "matchValue" : "\"time\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"id\":1",
+      "matchValue" : "\"id\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "优影视永久管理员@無语",
+  "locations" : [
+    {
+      "path" : "\/login\/login\/veifys.html",
+      "query" : "",
+      "host" : "dy.iu5c.com",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    },
+    {
+      "path" : "\/login\/login\/sign.html",
+      "query" : "",
+      "host" : "dy.iu5c.com",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}
+复制到上面符号为止，下载链接http://xiongmaofenfa.cn/uys

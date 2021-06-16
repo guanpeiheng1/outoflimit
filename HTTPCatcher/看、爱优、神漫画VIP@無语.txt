@@ -1,0 +1,201 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"Cdiamonds\":999999",
+      "matchValue" : "\"Cdiamonds\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"Cremaincoin\":999999",
+      "matchValue" : "\"Cremaincoin\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"Cticket\":999999",
+      "matchValue" : "\"Cticket\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"Cgold\":999999",
+      "matchValue" : "\"Cgold\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"Cgold\":999999",
+      "matchValue" : "\"Cgold\":-\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"status\":0",
+      "matchValue" : "\"status\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"msg\":\"购买该章节成功\"",
+      "matchValue" : "\"msg\":\".*\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"serverTime\":7956873178163",
+      "matchValue" : "\"serverTime\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"Uviptime\":9999-02-22 00:00:00",
+      "matchValue" : "\"Uviptime\":\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isVip\":1",
+      "matchValue" : "\"isVip\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isvip\":1",
+      "matchValue" : "\"isvip\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"card_vip\":7956873178163",
+      "matchValue" : "\"card_vip\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"diamonds\":999999",
+      "matchValue" : "\"diamonds\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"coins\":999999",
+      "matchValue" : "\"coins\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"ecy_coin_ios\":999999",
+      "matchValue" : "\"ecy_coin_ios\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"tuijian\":999999",
+      "matchValue" : "\"tuijian\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"yuepiao\":999999",
+      "matchValue" : "\"yuepiao\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "看、飒、爱优、神漫画VIP@無语",
+  "locations" : [
+    {
+      "path" : "\/app_api\/v5\/getuserinfo\/",
+      "query" : "",
+      "host" : "getuserinfo.321mh.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/app_api\/v5\/purchase_chapters_diamonds_coin\/",
+      "query" : "",
+      "host" : "purchase-globalapi.321mh.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/v1\/ecycoin\/getusernumbytype",
+      "query" : "",
+      "host" : "purchase-globalapi.321mh.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/v1\/ecycoin\/getgoodslistbytypenew",
+      "query" : "",
+      "host" : "purchase-globalapi.321mh.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/v1\/ecycoin\/getuserpackage",
+      "query" : "",
+      "host" : "purchase-globalapi.321mh.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}

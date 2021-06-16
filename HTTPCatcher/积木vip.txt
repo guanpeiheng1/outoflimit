@@ -1,0 +1,45 @@
+{
+  "rules" : [
+
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"status\":\"0\"",
+      "matchValue" : "\"status\":\"2\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   }, 
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_level\":\"2\"",
+      "matchValue" : "\"vip_level\":\"0\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   }, 
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_expire_time\":\"9999999999\"",
+      "matchValue" : "\"vip_expire_time\":\"1560009086\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   },
+  ],
+  "enabled" : true,
+  "name" : "积木vip",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 0
+    }
+  ]
+}
+此规则由过滤器转重写捷径完成 过滤器来自网络 捷径可以在捷径盒下载。

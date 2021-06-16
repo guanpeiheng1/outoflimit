@@ -1,0 +1,35 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"expiry\": 7956882115",
+      "matchValue" : "\"expiry\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"level\":1",
+      "matchValue" : "\"level\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "JAV101@無语",
+  "locations" : [
+    {
+      "path" : "\/v1\/user\/info",
+      "query" : "",
+      "host" : "apives.cn",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}
+复制到上面符号为止，下载链接https://aipoyang.cn

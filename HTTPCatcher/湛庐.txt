@@ -1,0 +1,154 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"luke_vip\":true",
+      "matchValue" : "\"luke_vip\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"paperbook_vip\":true",
+      "matchValue" : "\"paperbook_vip\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_end_time\":\"2283431779\"",
+      "matchValue" : "\"vip_end_time\":\"\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"lukeVipBeginTime\":\"1557722708\"",
+      "matchValue" : "\"lukeVipBeginTime\":\"\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"membership_end_time\":\"2283431779\"",
+      "matchValue" : "\"membership_end_time\":\"\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"paperbook_vip\":true",
+      "matchValue" : "\"paperbook_vip\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"superVip\":true",
+      "matchValue" : "\"superVip\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"endTime\":2283431779",
+      "matchValue" : "\"endTime\":null",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"cheersVip\":true",
+      "matchValue" : "\"cheersVip\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip\":true",
+      "matchValue" : "\"vip\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"lukeVipEndTime\":\"2283431779\"",
+      "matchValue" : "\"lukeVipEndTime\":\"\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"memberEndTime\":2283431779",
+      "matchValue" : "\"memberEndTime\":0",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"membership\":true",
+      "matchValue" : "\"membership\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"memberEndTime\":2283431779",
+      "matchValue" : "\"memberEndTime\":0",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"allPoints\":\"99990\"",
+      "matchValue" : "\"allPoints\":\"0\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "湛庐@Barbital",
+  "locations" : [
+    {
+      "path" : "\/api\/app\/v1\/my",
+      "query" : "",
+      "host" : "api.app.cheerspublishing.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}
+
+
+超级会员，书要钱买，这个可以让你便宜很多

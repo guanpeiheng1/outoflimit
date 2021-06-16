@@ -1,0 +1,38 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"is_vip\":1",
+      "matchValue" : "\"is_vip\":0",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_exp\":2283431779",
+      "matchValue" : "\"vip_exp\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "电子请帖制作@Barbital",
+  "locations" : [
+    {
+      "path" : "\/login",
+      "query" : "",
+      "host" : "cn1.invit.vip",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}
+
+
+
+会员全解https://itunes.apple.com/cn/app/%E7%94%B5%E5%AD%90%E8%AF%B7%E6%9F%AC%E5%88%B6%E4%BD%9C-%E7%BB%93%E5%A9%9A%E8%AF%B7%E5%B8%96%E7%94%9F%E6%97%A5%E9%82%80%E8%AF%B7%E5%87%BD%E8%B4%BA%E5%8D%A1/id1354806829?mt=8

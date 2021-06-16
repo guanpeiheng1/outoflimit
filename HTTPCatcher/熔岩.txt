@@ -1,0 +1,53 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isVip\":1",
+      "matchValue" : "\"isVip\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_expires\": 2219846400",
+      "matchValue" : "\"vip_expires\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"privilege\":\"1\"",
+      "matchValue" : "\"privilege\":\"0\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "熔岩@Barbital",
+  "locations" : [
+    {
+      "path" : "\/api\/user._bloginThirdx.json",
+      "query" : "",
+      "host" : "www.lavaradio.com",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    },
+    {
+      "path" : "\/api\/user.getDetail.json",
+      "query" : "",
+      "host" : "www.lavaradio.com",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}
+
+提示只有十小时，但是是无限时长，商店搜熔岩环境音乐

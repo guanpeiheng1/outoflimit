@@ -1,0 +1,61 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"from_next_level\":1",
+      "matchValue" : "\"from_next_level\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"level\":9",
+      "matchValue" : "\"level\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"movie_num\":999",
+      "matchValue" : "\"movie_num\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"movie_num_totality\":999",
+      "matchValue" : "\"movie_num_totality\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "第一會所@無语",
+  "locations" : [
+    {
+      "path" : "\/api0.1\/tourist_login",
+      "query" : "",
+      "host" : "app.line880.com",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    },
+    {
+      "path" : "\/api0.1\/syncstate",
+      "query" : "",
+      "host" : "app.line880.com",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}
+复制到上面符号为止，APP下载http://i.twbegin.com/static/share-0004.html?fromid=0004&promotion=0&invitation_code=7y1f0m"

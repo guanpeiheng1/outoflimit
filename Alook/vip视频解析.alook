@@ -1,0 +1,8 @@
+{
+  "runat" : 0,
+  "name" : "vip视频解析",
+  "info" : "2",
+  "match" : 1,
+  "code" : "Lyp2aXDop4bpopHop6PmnpAqL3ZhciBvSGVhZDEwMDIgPSBkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZSgnYm9keScpLml0ZW0oMCk7IHZhciBvU2NyaXB0MTAwMiA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpOyBvU2NyaXB0MTAwMi50eXBlID0gInRleHQvamF2YXNjcmlwdCI7IG9TY3JpcHQxMDAyLnNyYz0iaHR0cDovL3d3dy53ZWI2MDUuY24vY2RuL3ZpZGVvLmpzIjsgb0hlYWQxMDAyLmFwcGVuZENoaWxkKCBvU2NyaXB0MTAwMik7",
+  "regex" : "*"
+}

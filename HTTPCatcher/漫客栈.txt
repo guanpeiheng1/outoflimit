@@ -1,0 +1,88 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"is_vip\":\"1\"",
+      "matchValue" : "\"is_vip\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_end_time\":\"1589951640\"",
+      "matchValue" : "\"vip_end_time\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"gold\":\"1234\"",
+      "matchValue" : "\"gold\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"ticket\":\"1234\"",
+      "matchValue" : "\"ticket\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"code\":\"200\"",
+      "matchValue" : "\"code\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"use_validity\":\"1234\"",
+      "matchValue" : "\"use_validity\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"card_count\":\"1234\"",
+      "matchValue" : "\"card_count\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"integral\":\"1234\"",
+      "matchValue" : "\"integral\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "漫客栈@花小醉",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "member.mkzcdn.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 0
+    }
+  ]
+}

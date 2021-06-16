@@ -1,0 +1,124 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "user_nickname\":\"永久VIP会员\"",
+      "matchValue" : "user_nickname\":\"[\\u4e00-\\u9fa5]*\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "Lv9爵士\"",
+      "matchValue" : "Lv2从骑士\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "user_vip_start_date\":\"2018.07.13-2088.07.13\"",
+      "matchValue" : "user_vip_start_date\":\"\\d{4}.\\d{1,2}.\\d{1,2}\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "use_vip_end_date\":\"2018.07.13-2088.07.13\"",
+      "matchValue" : "user_vip_end_date\":\"\\d{4}.\\d{1,2}.\\d{1,2}\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "user_is_first_start\":0\"",
+      "matchValue" : "user_is_first_start\":[0-9]\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "user_vip_state\":2\"",
+      "matchValue" : "user_vip_state\":[0-9]\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "error_code\":\"0\"",
+      "matchValue" : "error_code\":\"[0-9]*\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "error_info\":\"\"",
+      "matchValue" : "error_info\":\"用户会员已过期\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "user_seed_int\":1\"",
+      "matchValue" : "user_seed_int\":[0-9]*\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "message\":\"获取成功\"",
+      "matchValue" : "message\":\"\"\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "user_id\":3566151\"",
+      "matchValue" : "user_id\":[0-9]*\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "error_info\":\"网球规则南瓜电影会员\"",
+      "matchValue" : "error_info\":\"用户信息不存在\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "南瓜🎃电影",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "p.doras.api.vcinema.cn",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}

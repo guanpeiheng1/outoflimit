@@ -1,0 +1,54 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"type\":\"0\"",
+      "matchValue" : "\"type\":\"2\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"type_val\":\"0\"",
+      "matchValue" : "\"type_val\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"code\":0",
+      "matchValue" : "\"code\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "⚡️小玉兔直播解锁收费房间",
+  "locations" : [
+    {
+      "path" : "\/api\/public",
+      "query" : "",
+      "host" : "",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 0
+    },
+    {
+      "path" : "\/api\/public\/\/",
+      "query" : "",
+      "host" : "",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 0
+    }
+  ]
+}
+复制到上面为止，app下载地址
+http://app.zbjh.xyz如有问题，请反馈
+QQ:11831118

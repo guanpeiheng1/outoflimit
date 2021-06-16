@@ -1,0 +1,70 @@
+﻿{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "vip\":1",
+      "matchValue" : "vip\":\\d",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "result\":100",
+      "matchValue" : "result\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "days\":365",
+      "matchValue" : "days\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "effective\":true",
+      "matchValue" : "effective\":\\w+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "最新版猫耳ASMR会员规则",
+  "locations" : [
+    {
+      "path" : "\/video\/api\/user\/info",
+      "query" : "",
+      "host" : "www.ormatch.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/video\/api\/video\/play",
+      "query" : "",
+      "host" : "www.ormatch.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/video\/api\/charge\/ioslist",
+      "query" : "",
+      "host" : "www.ormatch.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}
+  
+开启过滤后启动猫耳ASMR即可，需要登录

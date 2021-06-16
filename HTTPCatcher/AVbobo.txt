@@ -1,0 +1,44 @@
+﻿{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"restCount\" :9999",
+      "matchValue" : "\"restCount\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"canLook\":true",
+      "matchValue" : "\"canLook\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "AVbobo新版190506@慕千澜",
+  "locations" : [
+    {
+      "path" : "\/gw\/bobo\/canLook",
+      "query" : "",
+      "host" : "s.yazwm.cn",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/gw\/bobo\/fetchUser",
+      "query" : "",
+      "host" : "s.yazwm.cn",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}
+软件下载地址:
+https://s.aaabbcc28.com/gw/app-config/cds/pushPeople/1?code=ACT4LLBIK

@@ -1,0 +1,46 @@
+在重写里用在文本编辑器中编辑复制这个保存开启抓包 TW是改区  下面下面的这一段保存
+
+
+{
+  "rules" : [
+    {
+      "action" : "modify-query",
+      "matchField" : "carrier_region",
+      "field" : "carrier_region",
+      "value" : "TW",
+      "matchValue" : "CN",
+      "destiontion" : "request",
+      "isRegex" : false
+    },
+    {
+      "action" : "modify-query",
+      "matchField" : "ac",
+      "field" : "ac",
+      "value" : "WiFi",
+      "matchValue" : "4G",
+      "destiontion" : "request",
+      "isRegex" : false
+    },
+    {
+      "action" : "modify-query",
+      "matchField" : "region",
+      "field" : "region",
+      "value" : "TW",
+      "matchValue" : "CN",
+      "destiontion" : "request",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "胖虎\/网球抓包 Tik Tok 改区",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "api2.musical.ly",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 0
+    }
+  ]
+}

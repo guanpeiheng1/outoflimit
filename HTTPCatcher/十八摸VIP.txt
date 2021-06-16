@@ -1,0 +1,42 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"end_time\":17683989907,",
+      "matchValue" : "\"end_time\":\\d+,",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "0",
+      "matchValue" : "-1",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "十八摸VIP@胖虎",
+  "locations" : [
+    {
+      "path" : "\/mobile\/user\/index",
+      "query" : "",
+      "host" : "18-mo.com",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 82
+    },
+    {
+      "path" : "\/mobile\/index\/checkUser",
+      "query" : "",
+      "host" : "18-mo.com",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 82
+    }
+  ]
+}

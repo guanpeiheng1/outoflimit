@@ -1,0 +1,101 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"buyStatus\":1",
+      "matchValue" : "\"buyStatus\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"is_free\":0",
+      "matchValue" : "\"is_free\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"free_time\":0",
+      "matchValue" : "\"free_time\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"is_used\":0",
+      "matchValue" : "\"is_used\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"used_count\":0",
+      "matchValue" : "\"used_count\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"screen_type\":2",
+      "matchValue" : "\"screen_type\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isVip\":1",
+      "matchValue" : "\"isVip\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"all_free_count\":9999999",
+      "matchValue" : "\"all_free_count\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"free_count\":99999999",
+      "matchValue" : "\"free_count\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "学习@Barbital",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "lsj.mobi",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}
+
+
+     地址:http://lsj.arlrl.cn//index/register/register/invite_code/85560554.html
+邀请码85560554，开启无限观看

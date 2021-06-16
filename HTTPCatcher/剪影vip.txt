@@ -1,0 +1,51 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"is_vip\":1",
+      "matchValue" : "\"is_vip\":0",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_expire_time\":2525252626",
+      "matchValue" : "\"vip_expire_time\":0",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"success\":1",
+      "matchValue" : "\"success\":0",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "剪影vip",
+  "locations" : [
+    {
+      "path" : "\/cardinfo",
+      "query" : "",
+      "host" : "api.jianmovie.com",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    },
+    {
+      "path" : "\/expense",
+      "query" : "",
+      "host" : "api.jianmovie.com",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}

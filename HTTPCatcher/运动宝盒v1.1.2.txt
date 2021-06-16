@@ -1,0 +1,25 @@
+{
+  "rules" : [
+    {
+      "action" : "path",
+      "matchField" : "",
+      "field" : "1",
+      "value" : " ",
+      "matchValue" : "\/s\/blog_6576ea550100i68h.html",
+      "destiontion" : "request",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "运动宝盒",
+  "locations" : [
+    {
+      "path" : "\/s\/blog_6576ea550100i68h.html",
+      "query" : "",
+      "host" : "blog.sina.com.cn",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}

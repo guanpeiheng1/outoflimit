@@ -1,0 +1,26 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isValid\":1",
+      "matchValue" : "\"isValid\":\\d",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "Artist-全能摄影修图@無语@蔠點丶",
+  "locations" : [
+    {
+      "method" : "POST",
+      "scheme" : "https",
+      "enabled" : true,
+      "port" : 443,
+      "query" : "",
+      "host" : "awlapi.wecut.com",
+      "path" : "\/pay\/iosVerifyReceipt.php"
+    }
+  ]
+}

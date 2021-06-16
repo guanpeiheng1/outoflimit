@@ -1,0 +1,18 @@
+{
+  "name": "Task Gallery",
+  "description": "Collected by Payton Guan",
+  "task": [
+    "@zZPiglet",
+    "1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js, tag=115, img-url=https://raw.githubusercontent.com/Orz-3/task/master/115.png, enabled=false",
+    "1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js, tag=便利蜂, img-url=https://raw.githubusercontent.com/Orz-3/task/master/Blibee.png, enabled=false",
+    "0 1,20,21 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/Orz-3/task/master/didi.png, enabled=false",
+    "1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Haidilao/Haidilao.js, tag=海底捞, img-url=https://raw.githubusercontent.com/Orz-3/task/master/haidilao.png, enabled=false",
+    "1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Naixue/Naixue.js, tag=奈雪, img-url=https://raw.githubusercontent.com/Orz-3/task/master/Naixue.png, enabled=false",
+    "1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/ZMTeacher/ZMTeacher.js, tag=掌门好老师, img-url=https://raw.githubusercontent.com/Orz-3/task/master/ZMTeacher.png, enabled=false",
+    "1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js, tag=饿了么-打卡领红包, img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png, enabled=false",
+    "0 * * * * https://raw.githubusercontent.com/zZPiglet/Task/master/heybox/heybox.js, tag=小黑盒, img-url=https://raw.githubusercontent.com/Orz-3/task/master/heybox.png, enabled=false",
+    "0 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/Domino/Domino_getSMS.js, tag=达美乐, img-url=https://raw.githubusercontent.com/Orz-3/task/master/Domino.png, enabled=false",
+    "@toulanboy",
+    "5 0 * * * https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js, tag=京东价格提醒, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=false",
+  ]
+}

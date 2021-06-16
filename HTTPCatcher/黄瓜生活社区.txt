@@ -1,0 +1,25 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"freeLookTimes\":6666666",
+      "matchValue" : "\"freeLookTimes\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "黄瓜生活社区",
+  "locations" : [
+    {
+      "path" : "\/app\/init\/sysParam",
+      "query" : "",
+      "host" : "api12.split001.co",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}

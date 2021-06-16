@@ -1,0 +1,42 @@
+{
+  "rules" : [
+
+{
+  
+"action" : "body",
+  
+"matchField" : "",
+  
+"field" : "",
+  
+"value" : "url\":\"http:\/\/data.bbs.18183.com\/attachment\/forum\/201611\/02\/134233y7lyrzwrnxcuyq7q.gif\"",
+  
+"matchValue" : "url\":\"http:.+?\"",
+  
+"destiontion" : "response",
+  
+"isRegex" : true
+
+}
+  ],
+  "enabled" : true,
+  "name" : "小恩爱自定义启动动画-黑悟空",
+  "locations" : [
+
+{
+  
+"path" : "\/xads\/v2\/home_screen\/list",
+  
+"query" : "",
+  
+"host" : "",
+  
+"enabled" : true,
+  
+"scheme" : "",
+  
+"port" : 0
+
+}
+  ]
+}

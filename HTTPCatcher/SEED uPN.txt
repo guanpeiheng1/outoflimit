@@ -1,0 +1,43 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"StopTime\":\"\/Date(3472905600000)\/\"",
+      "matchValue" : "\"StopTime\":\"[^\"]+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"DueTime\":\"\/Date(1888888888888)\/\"",
+      "matchValue" : "\"DueTime\":\"[^\"]+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "\"ChannelState\": 3",
+      "value" : "\"ChannelState\":3",
+      "matchValue" : "\"ChannelState\":\\d",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "SEED VPN",
+  "locations" : [
+    {
+      "path" : "\/lygamesService.asmx\/TollUserLogin",
+      "query" : "",
+      "host" : "",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 0
+    }
+  ]
+}

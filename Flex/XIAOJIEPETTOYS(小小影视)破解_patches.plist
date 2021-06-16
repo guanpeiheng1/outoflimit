@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>patches</key>
+	<array>
+		<dict>
+			<key>UUID</key>
+			<string>1C46D811-5808-4C59-AB81-5FE314C66D58</string>
+			<key>apiVersion</key>
+			<integer>3</integer>
+			<key>appIdentifier</key>
+			<string>com.XIAOJIEPETTOYS.XIAOJIEPETTOYS</string>
+			<key>appVersion</key>
+			<string>2.1.6</string>
+			<key>cloudDescription</key>
+			<string></string>
+			<key>name</key>
+			<string>XIAOJIEPETTOYS(小小影视)破解</string>
+			<key>switchedOn</key>
+			<true/>
+			<key>units</key>
+			<array>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>XIAOJIEPETTOYSGlobalDataModel</string>
+						<key>displayName</key>
+						<string>-(id) iOS_adgroups</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>iOS_adgroups</string>
+						<key>typeEncoding</key>
+						<string>@16@0:8</string>
+					</dict>
+					<key>name</key>
+					<string>纹身制作</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>XIAOJIEPETTOYSGlobalDataModel</string>
+						<key>displayName</key>
+						<string>-(void) setIOS_adgroups:(id)</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>setIOS_adgroups:</string>
+						<key>typeEncoding</key>
+						<string>v24@0:8@16</string>
+					</dict>
+					<key>name</key>
+					<string>去启动广告</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>XIAOJIEPETTOYSUserInfoManager</string>
+						<key>displayName</key>
+						<string>-(id) getApiAuth</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>getApiAuth</string>
+						<key>typeEncoding</key>
+						<string>@16@0:8</string>
+					</dict>
+					<key>name</key>
+					<string>内置账号有南拥提供</string>
+					<key>overrides</key>
+					<array>
+						<dict>
+							<key>argument</key>
+							<integer>0</integer>
+							<key>type</key>
+							<dict>
+								<key>subtype</key>
+								<integer>1</integer>
+								<key>type</key>
+								<integer>1</integer>
+							</dict>
+							<key>value</key>
+							<dict>
+								<key>type</key>
+								<integer>1</integer>
+								<key>value</key>
+								<string>6131333537653261363463323331666265663763396239663835636662373930</string>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</array>
+</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,45 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "true",
+      "matchValue" : "false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip\":true",
+      "matchValue" : "\"vip\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "普通话测试@Barbital",
+  "locations" : [
+    {
+      "path" : "\/wapsPay\/checkVip.do",
+      "query" : "",
+      "host" : "120.55.106.17",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 8080
+    },
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "120.55.106.17",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}
+
+
+普通话测试会员，用不了的别问我

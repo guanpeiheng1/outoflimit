@@ -1,0 +1,7 @@
+{
+  "name" : "视频遥控器",
+  "match" : 1,
+  "regex" : "*",
+  "code" : "Lyrop4bpopHpgaXmjqflmagqL3ZhciBvSGVhZDEwMDMgPSBkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZSgnYm9keScpLml0ZW0oMCk7IHZhciBvU2NyaXB0MTAwMyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpOyBvU2NyaXB0MTAwMy50eXBlID0gInRleHQvamF2YXNjcmlwdCI7IG9TY3JpcHQxMDAzLnNyYz0iaHR0cDovL3d3dy53ZWI2MDUuY24vY2RuL3ZpZGVvQ29udHJvbC5qcyI7IG9IZWFkMTAwMy5hcHBlbmRDaGlsZCggb1NjcmlwdDEwMDMpOw==",
+  "runat" : 0
+}

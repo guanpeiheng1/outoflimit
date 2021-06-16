@@ -1,0 +1,37 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"restCount\" :9999",
+      "matchValue" : "\"restCount\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"canLook\":true",
+      "matchValue" : "\"canLook\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "bo'bo新版@Barbital",
+  "locations" : [
+    {
+      "path" : "\/gw\/bobo\/lookOneMovie",
+      "query" : "",
+      "host" : "s.yazwm.cn",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}
+
+地址https://s.aaabbcc28.com/gw/app-config/cds/pushPeople/1?code=AAHXU4SSH
+次数已经为0的貌似只能第二天使用

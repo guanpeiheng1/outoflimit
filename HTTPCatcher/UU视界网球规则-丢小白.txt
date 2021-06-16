@@ -1,0 +1,42 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "time\":2854162502",
+      "matchValue" : "time\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "add-header",
+      "matchField" : "",
+      "field" : "下载地址",
+      "value" : "http:\/\/11.gzsym.cn",
+      "matchValue" : "",
+      "destiontion" : "request",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "uu视界网球规则小白",
+  "locations" : [
+    {
+      "path" : "\/login\/login\/veifys.html",
+      "query" : "",
+      "host" : "az.gzsym.cn",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    },
+    {
+      "path" : "\/login\/login\/sign.html",
+      "query" : "",
+      "host" : "az.gzsym.cn",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}

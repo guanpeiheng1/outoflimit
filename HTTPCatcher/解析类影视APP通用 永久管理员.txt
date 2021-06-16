@@ -1,0 +1,37 @@
+{
+  "rules" : [
+
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"id\":\"1\"",
+      "matchValue" : "\"id\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   }, 
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"time\":\"-1\"",
+      "matchValue" : "\"time\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   },
+  ],
+  "enabled" : true,
+  "name" : "解析类影视APP通用 永久管理员",
+  "locations" : [
+    {
+      "path" : "/login/login/veifys.html",
+      "query" : "",
+      "host" : "",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : "",
+      "method" : "",
+    },
+  ]
+}
+此规则由过滤器转重写捷径完成 过滤器来自网络 捷径可以在捷径盒下载。

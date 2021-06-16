@@ -1,0 +1,81 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"IsBuyChapter\":1",
+      "matchValue" : "\"IsBuyChapter\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"IsLockLecture\":0",
+      "matchValue" : "\"IsLockLecture\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"IsLockVideo\":0",
+      "matchValue" : "\"IsLockVideo\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"SiteLevel\":1",
+      "matchValue" : "\"SiteLevel\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"IsUnlock\":1",
+      "matchValue" : "\"IsUnlock\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"BuyState\":1",
+      "matchValue" : "\"BuyState\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"IsFree\":0",
+      "matchValue" : "\"IsFree\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "工程万题库@Barbital",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "api.566.com",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}
+
+操作步骤如下：开始抓包后进去软件，点击章节课里的视频，会提示加载失败，是由于url无法弄出来，在点击练习里的习题，一开始无法查看，点提交，会一直转圈圈，然后返回后退出，再去看视频就可以了，如果不行，就多来几次，我自己不用，要求别这么严格

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>patches</key>
+	<array>
+		<dict>
+			<key>UUID</key>
+			<string>974B1C0D-D17F-4793-80EB-6738FFBB5AAE</string>
+			<key>apiVersion</key>
+			<integer>3</integer>
+			<key>appIdentifier</key>
+			<string>com.pixelcyber.dake.thor</string>
+			<key>appVersion</key>
+			<string>1.3.4</string>
+			<key>cloudDescription</key>
+			<string>去共享设备验证 去断点保护</string>
+			<key>name</key>
+			<string>Thor</string>
+			<key>switchedOn</key>
+			<true/>
+			<key>tableViewIndex</key>
+			<integer>12</integer>
+			<key>units</key>
+			<array>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>AppReceiptValidator</string>
+						<key>displayName</key>
+						<string>-(void) prepareVerify</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>prepareVerify</string>
+						<key>typeEncoding</key>
+						<string>v16@0:8</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(void) prepareVerify</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>FilterBPListVC</string>
+						<key>displayName</key>
+						<string>-(void) setRightsProtected:(bool)</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>setRightsProtected:</string>
+						<key>typeEncoding</key>
+						<string>v20@0:8B16</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(void) setRightsProtected:(bool)</string>
+					<key>overrides</key>
+					<array>
+						<dict>
+							<key>argument</key>
+							<integer>1</integer>
+							<key>type</key>
+							<dict>
+								<key>subtype</key>
+								<integer>0</integer>
+								<key>type</key>
+								<integer>6</integer>
+							</dict>
+							<key>value</key>
+							<dict>
+								<key>type</key>
+								<integer>6</integer>
+								<key>value</key>
+								<false/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

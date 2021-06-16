@@ -1,0 +1,47 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"videoPrice\":\"0\"",
+      "matchValue" : "\"videoPrice\":\\D...",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"chatPrice\":\"0\"",
+      "matchValue" : "\"chatPrice\":\\D...",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"error\":\"0\"",
+      "matchValue" : "\"error\":\\D......",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "寻寻@Amazing",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "api.goliaoyou.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}
+复制到符号为止
+免费音频 
+视频没有测试
+商店下载寻寻

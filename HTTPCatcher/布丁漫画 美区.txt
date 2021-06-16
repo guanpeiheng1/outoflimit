@@ -1,0 +1,52 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "\"vip_type\":0",
+      "value" : "\"vip_type\":1",
+      "matchValue" : "\"vip_type\":0",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "\"isvip\":\"0\"",
+      "value" : "\"isvip\":\"1\"",
+      "matchValue" : "\"isvip\":\"0\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "\"vip_days\" : \"0\"",
+      "value" : "\"vip_days\":\"999\"",
+      "matchValue" : "\"vip_days\":\"0\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"egold\":\"1000.00\"",
+      "matchValue" : "\"egold\":\"0.00\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "布丁漫画\/美区",
+  "locations" : [
+    {
+      "path" : "\/\/index.php\/api\/User\/userLogin",
+      "query" : "1=1&language=0&parent_id=2",
+      "host" : "hc.4008109966.net",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}

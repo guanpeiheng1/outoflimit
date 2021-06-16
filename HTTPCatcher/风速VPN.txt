@@ -1,0 +1,34 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isVip\":1",
+      "matchValue" : "\"isVip\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"feng_group\":2",
+      "matchValue" : "\"feng_group\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : false,
+  "name" : "网球-风速v皮N@那一抹笑",
+  "locations" : [
+    {
+      "path" : "\/api\/login",
+      "query" : "",
+      "host" : "www.fengchigo.com",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}

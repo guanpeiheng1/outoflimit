@@ -1,0 +1,40 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"time\":1712119260",
+      "matchValue" : "\"time\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"id\":1",
+      "matchValue" : "\"id\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "金豆影视",
+  "locations" : [
+    {
+      "path" : "\/\/login\/login\/veifys.html",
+      "query" : "",
+      "host" : "www.jindouys.cn",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}
+
+
+
+
+下载地址http://www.51gsc.com/app/jindouys
+下载登录体验会员两个小时 要是不好使会员过期后开启过滤器

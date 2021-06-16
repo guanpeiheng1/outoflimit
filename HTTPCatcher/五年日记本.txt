@@ -1,0 +1,135 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"is_yellow_vip\":\"1\"",
+      "matchValue" : "\"is_yellow_vip\": \"0\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip\":\"1\"",
+      "matchValue" : "\"vip\": \"0\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"yellow_vip_level\":\"1\"",
+      "matchValue" : "\"yellow_vip_level\": \"0\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"level\":\"1\"",
+      "matchValue" : "\"level\": \"0\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"is_yellow_year_vip\":\"1\"",
+      "matchValue" : "\"is_yellow_year_vip\": \"0\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isVip\":true",
+      "matchValue" : "\"isVip\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipTime\":2504922770",
+      "matchValue" : "\"vipTime\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isPro\":true",
+      "matchValue" : "\"isPro\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"diaryInsertImage\":true",
+      "matchValue" : "\"diaryInsertImage\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"diamondCount\":9999999",
+      "matchValue" : "\"diamondCount\":-\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isOpenTimeline\":true",
+      "matchValue" : "\"isOpenTimeline\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"diamondPresentCount\":9999999",
+      "matchValue" : "\"diamondPresentCount\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "五年日记本@Barbital",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "openmobile.qq.com",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    },
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "l5pkvva9.api.lncld.net",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}
+
+
+商店搜五年日记本，挺好用的，破解vip，去广告，相册无限制，钻石无限，买信封无限，用不了别问我
