@@ -1,0 +1,55 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"member_vip_state\":\"2\"",
+      "matchValue" : "\"member_vip_state\":\"1\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"member_vip_expried_state\":1",
+      "matchValue" : "\"member_vip_expried_state\":0",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"member_vip_expried_time\":\"2099-09-09\"",
+      "matchValue" : "\"member_vip_expried_time\":\"\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"member_nick_name\":\"Barbital\"",
+      "matchValue" : "\"member_nick_name\":\"\\w+\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "情感先生@Barbital",
+  "locations" : [
+    {
+      "path" : "\/\/index.php\/AppApi\/Member\/user_info",
+      "query" : "",
+      "host" : "lovepro.ncrlkj.com",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}
+
+
+商店搜情感先生

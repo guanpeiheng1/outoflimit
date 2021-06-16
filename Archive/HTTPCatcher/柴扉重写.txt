@@ -1,0 +1,37 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isVip\":1",
+      "matchValue" : "\"isVip\":-1",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"end_time\":\"2099-12-24\"",
+      "matchValue" : "\"end_time\":\"\\d{4}-\\d{1,2}-\\d{1,2}\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "柴霏",
+  "locations" : [
+    {
+      "path" : "\/fei\/member\/getmember",
+      "query" : "",
+      "host" : "api.chaifei.huochaihe.cc",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}
+
+
+商店搜柴扉，文艺青年装b必备

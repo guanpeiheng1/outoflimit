@@ -1,0 +1,37 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"IsVip\":1",
+      "matchValue" : "\"IsVip\":0",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"ExpTime\":\"\\\/Date(2283431779000)\\\/\"",
+      "matchValue" : "\"ExpTime\":\"\\\/Date(1557443076000)\\\/\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "男人帮@Barbital",
+  "locations" : [
+    {
+      "path" : "\/api\/user4app\/myinfo",
+      "query" : "",
+      "host" : "ssl4xyy.enrz.com",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}
+
+
+看会员专享，需要购买的不行，商店搜

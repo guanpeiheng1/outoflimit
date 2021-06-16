@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>patches</key>
+	<array>
+		<dict>
+			<key>UUID</key>
+			<string>4D415294-384C-4684-950C-7DC3F159E2F5</string>
+			<key>apiVersion</key>
+			<integer>3</integer>
+			<key>appIdentifier</key>
+			<string>com.tf1.bangyuan</string>
+			<key>appVersion</key>
+			<string>1.6.4</string>
+			<key>cloudDescription</key>
+			<string></string>
+			<key>name</key>
+			<string>bangyuan(小小影视)</string>
+			<key>switchedOn</key>
+			<true/>
+			<key>units</key>
+			<array>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>SPinGlobalDataModel</string>
+						<key>displayName</key>
+						<string>-(id) adgroups</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>adgroups</string>
+						<key>typeEncoding</key>
+						<string>@16@0:8</string>
+					</dict>
+					<key>name</key>
+					<string>凉意制作</string>
+					<key>overrides</key>
+					<array>
+						<dict/>
+					</array>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>SPinGlobalDataModel</string>
+						<key>displayName</key>
+						<string>-(void) setAdgroups:(id)</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>setAdgroups:</string>
+						<key>typeEncoding</key>
+						<string>v24@0:8@16</string>
+					</dict>
+					<key>name</key>
+					<string>去启动广告</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>SPinUserInfoManager</string>
+						<key>displayName</key>
+						<string>-(id) getApiAuth</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>getApiAuth</string>
+						<key>typeEncoding</key>
+						<string>@16@0:8</string>
+					</dict>
+					<key>name</key>
+					<string>内置账号由肆意提供</string>
+					<key>overrides</key>
+					<array>
+						<dict>
+							<key>argument</key>
+							<integer>0</integer>
+							<key>type</key>
+							<dict>
+								<key>subtype</key>
+								<integer>1</integer>
+								<key>type</key>
+								<integer>1</integer>
+							</dict>
+							<key>value</key>
+							<dict>
+								<key>type</key>
+								<integer>1</integer>
+								<key>value</key>
+								<string>3335356565313139363162663861653361626263343063303630653134303132</string>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</array>
+</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,72 @@
+{
+  "rules" : [
+
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"can_free_vip\":\"1\"",
+      "matchValue" : "\"can_free_vip\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   }, 
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_exp\":\"1\"",
+      "matchValue" : "\"vip_exp\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   }, 
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"00\":\"00\"",
+      "matchValue" : "\"out_time\":\"0000-00-00\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   }, 
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"2022-02-22\":\"22\"",
+      "matchValue" : "\"00\":\"out_time\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   }, 
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"false\":\"true\"",
+      "matchValue" : "\"22\":\"22\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   }, 
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"kefu\":\"十一大魔王i\"",
+      "matchValue" : "\"kefu\":\"guopao168\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   },
+  ],
+  "enabled" : true,
+  "name" : "水印吧Vip7",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 0
+    }
+  ]
+}
+此规则由过滤器转重写捷径完成 过滤器来自网络 捷径可以在捷径盒下载。

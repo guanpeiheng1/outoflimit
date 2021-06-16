@@ -1,0 +1,4 @@
+{"rules":[{"action":"body","matchField":"","field":"","value":"code\":0","matchValue":"code\":.{2}","destiontion":"response","isRegex":true}],"enabled":true,"name":"Apple ","locations":[{"path":"\/mobile\/index\/checkUser","query":"","host":"app.miaoxinpin.com","enabled":true,"scheme":"http","port":80}]}
+下载链接4ew.gmr5.rizhaomall.cn:81/ODxy02
+http:邀请码：UT1OHZ
+

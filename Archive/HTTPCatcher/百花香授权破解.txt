@@ -1,0 +1,27 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "{\"msg\":\"激活成功\",\"data\":null,\"code\":\"1\"}",
+      "matchValue" : "涛哥传媒恭喜你获得奖励",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "百花香",
+  "locations" : [
+    {
+      "path" : "\/wsbhx\/sp\/wuhuqq66837875.php",
+      "query" : "",
+      "host" : "",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}
+使用方法：打开微信出现授权窗口→开启规则→激活码随便输即可！或者先开启规则再打开微信也可以，这样可以不用输激活码。破解成功后可以关闭规则，微信可以挂到后台，不可大退，如果大退微信需要重新破解~
+下载地址:http://bhx.515go.cn

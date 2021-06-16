@@ -1,0 +1,42 @@
+{
+  "rules" : [
+
+{
+  
+"action" : "path",
+  
+"matchField" : "",
+  
+"field" : "",
+  
+"value" : "heiwukong",
+  
+"matchValue" : "servant\/s",
+  
+"destiontion" : "request",
+  
+"isRegex" : false
+
+}
+  ],
+  "enabled" : true,
+  "name" : "JSBox½â³ýÑéÖ¤-ºÚÎò¿Õ",
+  "locations" : [
+
+{
+  
+"path" : "\/servant\/s",
+  
+"query" : "",
+  
+"host" : "xteko.com",
+  
+"enabled" : true,
+  
+"scheme" : "https",
+  
+"port" : 0
+
+}
+  ]
+}

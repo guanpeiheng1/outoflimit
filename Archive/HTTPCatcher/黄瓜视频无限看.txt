@@ -1,0 +1,25 @@
+{
+  "rules" : [
+    {
+      "action" : "modify-query",
+      "matchField" : "playResult",
+      "field" : "playResult",
+      "value" : "0",
+      "matchValue" : "1",
+      "destiontion" : "request",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "黄瓜视频无限观看@胖虎",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "api88.awk2.work",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}

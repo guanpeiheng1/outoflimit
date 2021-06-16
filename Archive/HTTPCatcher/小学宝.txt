@@ -1,0 +1,90 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isVIP\":true",
+      "matchValue" : "\"isVIP\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"is_exp_vip\":false",
+      "matchValue" : "\"is_exp_vip\":true",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"time_to_expire\":2283431779",
+      "matchValue" : "\"time_to_expire\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"exp_vip_expire_time\":\"2099-05-20 18:30:39.953773\"",
+      "matchValue" : "\"exp_vip_expire_time\":\"\\d{4}[-\/]\\d{2}[-\/]\\d{2} \\d{2}:\\d{2}:\\d{2}.\\d{6}\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"show_diandu\":true",
+      "matchValue" : "\"show_diandu\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"exp_time_to_expire\":0",
+      "matchValue" : "\"exp_time_to_expire\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_expire_time\":\"2283431779\"",
+      "matchValue" : "\"vip_expire_time\":\"\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_duration\":99999999",
+      "matchValue" : "\"vip_duration\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "小学宝@Barbital",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "haojiazhang123.com",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}
+
+会员

@@ -1,0 +1,36 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipStatus\":true",
+      "matchValue" : "\"vipStatus\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipExpireDateNum\":2283431779",
+      "matchValue" : "\"vipExpireDateNum\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "拓词@Barbital",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "api.towords.com",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}
+
+目前觉得特别好用的单词软件，开启plus会员功能

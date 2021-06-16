@@ -1,0 +1,34 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "type\":\"0\"",
+      "matchValue" : "type\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "level\":\"9\"",
+      "matchValue" : "level\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "小玉兔破收费",
+  "locations" : [
+    {
+      "path" : "\/api\/public\/",
+      "query" : "service=Live.checkLive",
+      "host" : "fz.astoo.cn",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}

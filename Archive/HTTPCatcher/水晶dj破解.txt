@@ -1,0 +1,106 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"integral\":\"1\"",
+      "matchValue" : "\"integral\":\"\\d\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"listen_mp3\":true",
+      "matchValue" : "\"listen_mp3\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"dances\":99999999",
+      "matchValue" : "\"dances\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"listen_expire\":\"2099-12-12\"",
+      "matchValue" : "\"listen_expire\":\"\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"down_expire\":\"2099-12-12\"",
+      "matchValue" : "\"down_expire\":\"\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"down_integral\":\"99999999\"",
+      "matchValue" : "\"down_integral\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"down_mp4_is_enough\":true",
+      "matchValue" : "\"down_mp4_is_enough\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"down_mp3_is_free\":true",
+      "matchValue" : "\"down_mp3_is_free\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"down_mp4_integral\":0",
+      "matchValue" : "\"down_mp4_integral\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"down_mp4_integral\":1",
+      "matchValue" : "\"down_mp4_integral\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "水晶dj@胖虎",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "dj-api.mooeen.com",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}

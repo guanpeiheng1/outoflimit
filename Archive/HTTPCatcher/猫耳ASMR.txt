@@ -1,0 +1,97 @@
+{
+  "rules" : [
+
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip\":\"1\"",
+      "matchValue" : "\"vip\":\"\\d\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   },
+
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"regTime\":\"1651374439000\"",
+      "matchValue" : "\"regTime\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   },
+
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"valid\":\"1\"",
+      "matchValue" : "\"valid\":\"\\d\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   },
+
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip\":\"true\"",
+      "matchValue" : "\"vip\":\"\\w*\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   },
+
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipExpires\":\"1645499239000\"",
+      "matchValue" : "\"vipExpires\":\"\\d\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   },
+
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"days\":\"9999\"",
+      "matchValue" : "\"days\":\"\\d\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   },
+
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"chapters\":\"9999\"",
+      "matchValue" : "\"chapters\":\"\\d\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   },
+
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"totalTime\":\"9999\"",
+      "matchValue" : "\"totalTime\":\"\\d\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   },
+  ],
+  "enabled" : true,
+  "name" : "猫耳ASMR",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "/snail-meditation/track/statistics/syncTime",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 0
+    }
+  ]
+}
+此规则由过滤器转重写捷径完成 过滤器来自网络 捷径可以在捷径盒下载。

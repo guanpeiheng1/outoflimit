@@ -1,0 +1,25 @@
+{
+  "rules" : [
+    {
+      "action" : "modify-query",
+      "matchField" : "logo_name",
+      "field" : "logo_name",
+      "value" : "胖虎",
+      "matchValue" : "aweme_suffix",
+      "destiontion" : "request",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "抖音保存无水印@胖虎",
+  "locations" : [
+    {
+      "path" : "\/aweme\/v1\/play\/",
+      "query" : "",
+      "host" : "aweme-hl.snssdk.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 0
+    }
+  ]
+}

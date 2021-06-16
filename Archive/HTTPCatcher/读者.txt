@@ -1,0 +1,25 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"price\":\"0\"",
+      "matchValue" : "\"price\":\"1\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "∂¡’ﬂ",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "www.fengread.com",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}

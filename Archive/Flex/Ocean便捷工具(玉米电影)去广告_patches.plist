@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>patches</key>
+	<array>
+		<dict>
+			<key>UUID</key>
+			<string>6F6AE00D-BD11-4444-81FC-CC5159CFF0B5</string>
+			<key>apiVersion</key>
+			<integer>3</integer>
+			<key>appIdentifier</key>
+			<string>com.xueyu.sxb</string>
+			<key>appVersion</key>
+			<string>1.1.0</string>
+			<key>cloudDescription</key>
+			<string></string>
+			<key>name</key>
+			<string>Ocean便捷工具(玉米电影)去广告</string>
+			<key>switchedOn</key>
+			<true/>
+			<key>units</key>
+			<array>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>BUUnionRequestModel</string>
+						<key>displayName</key>
+						<string>-(void) setAdslotsAry:(id)</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>setAdslotsAry:</string>
+						<key>typeEncoding</key>
+						<string>v24@0:8@16</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(void) setAdslotsAry:(id)</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>BUUnionRequestModel</string>
+						<key>displayName</key>
+						<string>-(void) setAdSDKVersion:(id)</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>setAdSDKVersion:</string>
+						<key>typeEncoding</key>
+						<string>v24@0:8@16</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(void) setAdSDKVersion:(id)</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+			</array>
+</dict>
+	</array>
+</dict>
+</plist>

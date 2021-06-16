@@ -1,0 +1,64 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"free_download_count\":99999",
+      "matchValue" : "\"free_download_count\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"is_xy_vip\":true",
+      "matchValue" : "\"is_xy_vip\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"xy_vip_expire\":2283431779",
+      "matchValue" : "\"xy_vip_expire\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"point\":99999",
+      "matchValue" : "\"point\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"is_xy_auto_renewal\":true",
+      "matchValue" : "\"is_xy_auto_renewal\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "彩云@Barbital",
+  "locations" : [
+    {
+      "path" : "\/v1\/user\/5cd6734c19904d000e2997d4",
+      "query" : "",
+      "host" : "api.interpreter.caiyunai.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}
+
+
+商店搜彩云小译，下载完整文档提示次数用尽时点开通会员再返回即可下载，虽然会提示没有积分，但是功能全部正常使用

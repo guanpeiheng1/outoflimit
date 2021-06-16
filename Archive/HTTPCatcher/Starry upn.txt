@@ -1,0 +1,43 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"StopTime\":\"\\\/Date(9553551524377)\\\/\"",
+      "matchValue" : "\"StopTime\":\"[^\"]+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"DueTime\":\"\\\/Date(9553636124377)\\\/\"",
+      "matchValue" : "\"DueTime\":\"[^\"]+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"ChannelState\":3",
+      "matchValue" : "\"ChannelState\":\\d",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "Starry vpn",
+  "locations" : [
+    {
+      "path" : "\/usertest\/ios.asmx\/PayvisitorLoginReg",
+      "query" : "",
+      "host" : "47.75.224.194",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 0
+    }
+  ]
+}

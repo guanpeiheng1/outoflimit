@@ -1,0 +1,46 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"level\":1",
+      "matchValue" : "\"level\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"expiry\":3040041600",
+      "matchValue" : "\"expiry\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"verify_phone\":1",
+      "matchValue" : "\"verify_phone\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "jav101@Barbital",
+  "locations" : [
+    {
+      "path" : "\/v1\/user\/info",
+      "query" : "",
+      "host" : "iyiyiy.cn",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}
+
+开通vip至2066年，开启加速，高清画质
+地址：https://aipoyang.cn/

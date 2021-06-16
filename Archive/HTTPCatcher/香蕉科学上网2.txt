@@ -1,0 +1,25 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "{\n \"msg\": \"查询过期时间成功\",\n \"data\": \"7oxaT0gDdop9il82aEoph\/Gal9TXSfsaitKjJq24sDwtSk\/M+f2KR3eHNNbowC+D75y7EEh3rYhq\\n5PwQPf+XZlZbEArvFflWJCkEzxVZTIsAJoArEJzfBvvDp3tODzMjnxglj3UIwFCjuFSt38TWOg==\",\n \"code\": 200\n}",
+      "matchValue" : ".+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "香蕉科学上网规则@胖虎",
+  "locations" : [
+    {
+      "path" : "\/api\/v4\/getExpiredTime",
+      "query" : "",
+      "host" : "47.75.33.1",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 8080
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isFreeWatch\":true",
+      "matchValue" : "\"isFreeWatch\": false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"freeWatchEndTime\":\"2099-05-08T12:34:08\"",
+      "matchValue" : "\"freeWatchEndTime\": \"\\d{4}[-\/]\\d{2}[-\/]\\d{2}T\\d{2}:\\d{2}:\\d{2}\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipDay\":999999",
+      "matchValue" : "\"vipDay\": \\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"registerForVIP\":true",
+      "matchValue" : "\"registerForVIP\": false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipLevel\":3",
+      "matchValue" : "\"vipLevel\": \\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"totalViews\":99999",
+      "matchValue" : "\"totalViews\": 5",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isVip\":1",
+      "matchValue" : "\"isVip\": \\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipType\":3",
+      "matchValue" : "\"vipType\": \\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"viewed\":0",
+      "matchValue" : "\"viewed\": \\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isTest\":true",
+      "matchValue" : "\"isTest\": false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isError\":false",
+      "matchValue" : "\"isError\": true",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"message\":null",
+      "matchValue" : "\"message\": \"今日观看次数已用完\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"detail\":null",
+      "matchValue" : "\"detail\": \"今日观看次数已用完\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"errorCode\":0",
+      "matchValue" : "\"errorCode\": 206013",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "remove-header",
+      "matchField" : "",
+      "field" : "\"errors\"",
+      "value" : "",
+      "matchValue" : "",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "无界@Barbital",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "wjapi.yzcode.net",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}
+
+无限次数，邀请码4268065
+地址http://xj.kb938.com/?/caa/816668
+用不了别问我

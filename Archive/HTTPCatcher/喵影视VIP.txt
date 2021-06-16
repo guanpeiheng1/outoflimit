@@ -1,0 +1,34 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"time\":7956882115",
+      "matchValue" : "\"time\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "喵影视VIP@無语",
+  "locations" : [
+    {
+      "path" : "\/login\/login\/sign.html",
+      "query" : "uid=1117",
+      "host" : "film.onesapp.cn",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    },
+    {
+      "path" : "\/login\/login\/veifys.html",
+      "query" : "",
+      "host" : "film.onesapp.cn",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}
+复制到上面符号为止，下载：http://t.cn/ESLwoIT

@@ -1,0 +1,36 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip\":1",
+      "matchValue" : "\"vip\": \\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"flag\":1",
+      "matchValue" : "\"flag\": \\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "余音@Barbital",
+  "locations" : [
+    {
+      "path" : "\/yy\/v1\/auth\/user\/info",
+      "query" : "",
+      "host" : "wawa.fm",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}
+
+开启vip，用不了别问我，我不知道

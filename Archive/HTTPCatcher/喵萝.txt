@@ -1,0 +1,56 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"price\":\"0\"",
+      "matchValue" : "\"price\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"trysee\":\"1\"",
+      "matchValue" : "\"trysee\":\"\\d\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"msg\":\"购买成功\"",
+      "matchValue" : "\"msg\":\"金币余额不足\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"code\":0",
+      "matchValue" : "\"code\":2",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "喵萝@Barbital",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "www.kouu.me",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}
+
+抓到的数据中找到http://www.kouu.me/v1/app/videotype2/id,title,picurl/6/0/createtime/desc后，点击里面的videourl，复制到浏览器即可
+喵萝官网下载地址:http://t.cn/AiKJAdAe
+邀请码H2HYT1P

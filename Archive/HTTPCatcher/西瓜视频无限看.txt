@@ -1,0 +1,62 @@
+﻿{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"mobile\":\"88888888888",
+      "matchValue" : "\"mobile\":\"\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"userName\":\"88888888888",
+      "matchValue" : "\"userName\":\"\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"level\":5",
+      "matchValue" : "\"level\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"nickName\":\"8888****888",
+      "matchValue" : "\"nickName\":\"\\d+....\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipType\":1",
+      "matchValue" : "\"vipType\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "⚡️西瓜视频无限看",
+  "locations" : [
+    {
+      "path" : "\/api\/user\/get",
+      "query" : "",
+      "host" : "api.gkaorlz.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}
+复制到上面为止，西瓜视频下载地址https://www.xg1.app/，

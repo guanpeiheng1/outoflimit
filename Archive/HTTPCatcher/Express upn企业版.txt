@@ -1,0 +1,26 @@
+{
+ "rules": [
+  {
+   "action": "body",
+   "matchField": "",
+   "field": "",
+   "value": "{\n \"userid\": \"5cb977d7f0e2007cefd79721\",\n \"expire\": 7957995597197,\n \"verify\": true,\n \"username\": \"user_7848350450\",\n \"email\": \"magc.cpt\",\n \"type\": \"gold\",\n \"token\": \"c581236822f1b3242877f545c3dc68a0\",\n \"publickey\": \"0756cc67b6421720\"\n}",
+   "matchValue": ".+",
+   "destiontion": "response",
+   "isRegex": true
+  }
+ ],
+ "enabled": true,
+ "name": "Express vpn",
+ "locations": [
+  {
+   "path": "/v1/device",
+   "query": "",
+   "host": "relay-api.eos398.com",
+   "enabled": true,
+   "scheme": "https",
+   "port": 443
+  }
+ ]
+}
+复制到上面符号位置，下载链接https://express.01b122.cn/ios_tutorial.html

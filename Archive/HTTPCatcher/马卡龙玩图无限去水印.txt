@@ -1,0 +1,27 @@
+{
+  "rules" : [
+
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"itemCount\":\"98\"",
+      "matchValue" : "\"itemCount\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   },
+  ],
+  "enabled" : true,
+  "name" : "马卡龙玩图无限去水印^_^",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "/user/item/watermarkEraser",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 0
+    }
+  ]
+}
+此规则由过滤器转重写捷径完成 过滤器来自网络 捷径可以在捷径盒下载。

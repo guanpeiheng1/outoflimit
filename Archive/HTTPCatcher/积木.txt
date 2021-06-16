@@ -1,0 +1,55 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_level\":\"2\"",
+      "matchValue" : "\"vip_level\":\"0\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_expire_time\":\"2061907200\"",
+      "matchValue" : "\"vip_expire_time\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"identity_status\":\"3\"",
+      "matchValue" : "\"identity_status\":\"0\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"status\":\"0\"",
+      "matchValue" : "\"status\":\"2\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "积木@Barbital",
+  "locations" : [
+    {
+      "path" : "\/api\/login",
+      "query" : "",
+      "host" : "jimu.chinacloudsites.cn",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}
+
+
+商店搜积木，不开进不去

@@ -1,0 +1,34 @@
+{
+ "rules": [
+  {
+   "action": "body",
+   "matchField": "",
+   "field": "",
+   "value": "totalDays\":666",
+   "matchValue": "totalDays\":\\d+",
+   "destiontion": "response",
+   "isRegex": true
+  },
+  {
+   "action": "body",
+   "matchField": "",
+   "field": "",
+   "value": "days\":666",
+   "matchValue": "days\":\\d+",
+   "destiontion": "response",
+   "isRegex": true
+  }
+ ],
+ "enabled": true,
+ "name": "Banana 78-82版本可用",
+ "locations": [
+  {
+   "path": "/v3/getExpiredTime",
+   "query": "",
+   "host": "47.75.33.1",
+   "enabled": true,
+   "scheme": "http",
+   "port": 8080
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+  "rules" : [
+
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"allow\":\"1\"",
+      "matchValue" : "\"allow\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   }, 
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"audit\":\"1\"",
+      "matchValue" : "\"audit\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   },
+  ],
+  "enabled" : true,
+  "name" : "华文电视Pro、解除区域限制",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 0
+    }
+  ]
+}
+此规则由过滤器转重写捷径完成 过滤器来自网络 捷径可以在捷径盒下载。

@@ -1,0 +1,26 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "expireTime\":\"3742774968\"",
+      "matchValue" : "expireTime\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "手机硬件管家",
+  "locations" : [
+    {
+      "path" : "\/1.0\/uicommon\/getuser",
+      "query" : "",
+      "host" : "api.591master.com",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 8081
+    }
+  ]
+}
+商店 手机硬件管家签到兑换一次vip 开启一次即可

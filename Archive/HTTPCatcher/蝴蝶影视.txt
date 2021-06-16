@@ -1,0 +1,46 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "{\"code\":\"200\",\"status\":\"1022\",\"tips\":\"平台点击记录成功\",\"result\":\"平台点击记录成功\"}\"",
+      "matchValue" : "\\{.*\\}\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "expire_date\":\"2110-12-21\"",
+      "matchValue" : "expire_date\":\"\\d{4}-\\d{2}-\\d{2}\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "agent_level\": \"雷老湿\"",
+      "matchValue" : "agent_level\": \"REGULAR_MEMBER\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "蝴蝶🦋影视vip@雷老湿",
+  "locations" : [
+    {
+      "path" : "\/hdys\/services\/authen\/member\/get",
+      "query" : "",
+      "host" : "120.79.174.23",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}
+………………………华丽分割线………………………
+复制分割线以前文本。
+下载地址:  www.hn-yc.cn

@@ -1,0 +1,69 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "vip\":\"1",
+      "matchValue" : "vip\":\"0",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "viptime\":\"9999-01-01",
+      "matchValue" : "viptime\":\"\\d+.\\d+.\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "vip\":\"4\",\"diqu",
+      "matchValue" : "vip\":\"\\d\",\"diqu",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "cion\":\"9999",
+      "matchValue" : "cion\":\"\\d",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "looktime\":-1",
+      "matchValue" : "looktime\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "爱美剧VIP@胖虎",
+  "locations" : [
+    {
+      "path" : "\/index.php\/app\/ios\/user\/index",
+      "query" : "",
+      "host" : "mjappaz.yefu365.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/index.php\/app\/ios\/vod\/show",
+      "query" : "",
+      "host" : "mjappaz.yefu365.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}

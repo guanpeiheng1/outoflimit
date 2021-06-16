@@ -1,0 +1,97 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"Uviptime\":2535120000",
+      "matchValue" : "\"Uviptime\":-6847833600000",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"imagelimit\":\"noresize.webp\"",
+      "matchValue" : "\"imagelimit\":\"-noresize.webp\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"expires\":2535120000",
+      "matchValue" : "\"expires\":1557416649119",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isvip\":1",
+      "matchValue" : "\"isvip\":0",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"Cnewviptime\":2535120000",
+      "matchValue" : "\"Cnewviptime\":6847833600000",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipdate\" : \"2050-05-03 30:00:00\"",
+      "matchValue" : "\"vipdate\" : \"1753-01-01 00:00:00\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"expires\":2535120000",
+      "matchValue" : "\"expires\":1557416649119",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"Usex\":99999",
+      "matchValue" : "\"Usex\":1",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"ismkxq\":1",
+      "matchValue" : "\"ismkxq\":0",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "Barbital知音漫客",
+  "locations" : [
+    {
+      "path" : "\/app_api\/v5\/getuserinfo\/",
+      "query" : "",
+      "host" : "getuserinfo-globalapi.zymk.cn",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}

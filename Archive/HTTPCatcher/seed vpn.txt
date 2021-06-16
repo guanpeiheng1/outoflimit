@@ -1,0 +1,43 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"ChannelState\":3,",
+      "matchValue" : "\"ChannelState\":1,",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "1888888888888",
+      "matchValue" : "1557073937000",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"PackageName\":\"黄金弗利沙\",",
+      "matchValue" : "\"PackageName\":\"注册用户\",",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "VPN",
+  "locations" : [
+    {
+      "path" : "\/lygamesService.asmx\/TollUserLogin",
+      "query" : "apikey=lygames_0953&uuid=5CD9C1EF-1B17-47C3-A0F8-FE0FE13F7449&name=xiaonuo0122@Gmail.com&pass=3c80996fe16b06e4bcd9d13c2ce72c70&source=SEEDVPN208",
+      "host" : "47.52.182.226",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 19999
+    }
+  ]
+}

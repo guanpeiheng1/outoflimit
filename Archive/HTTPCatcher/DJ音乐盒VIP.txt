@@ -1,0 +1,25 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "<HYVIP>1<\/HYVIP>",
+      "matchValue" : "<HYVIP>-1<\/HYVIP>",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "Dj音乐盒VIP",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "ios-apk-asp.jyw8.com",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 0
+    }
+  ]
+}

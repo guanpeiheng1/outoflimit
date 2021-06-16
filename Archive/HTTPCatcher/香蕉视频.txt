@@ -1,0 +1,43 @@
+{
+  "rules": [
+    {
+      "action": "body",
+      "matchField": "",
+      "field": "",
+      "value": "remainders\":999,\"",
+      "matchValue": "remainders\":\\d+,\"",
+      "destiontion": "response",
+      "isRegex": true
+    },
+    {
+      "action": "body",
+      "matchField": "",
+      "field": "",
+      "value": "retcode\":0,\"",
+      "matchValue": "retcode\":-1,\"",
+      "destiontion": "response",
+      "isRegex": true
+    },
+    {
+      "action": "modify-header",
+      "matchField": "",
+      "field": "雷老湿xxx_api_auth=\\w+\" \"xxx_api_auth=1\"",
+      "value": "xxx_api_auth=1\"",
+      "matchValue": "xxx_api_auth=\\w+\"",
+      "destiontion": "request",
+      "isRegex": true
+    }
+  ],
+  "enabled": true,
+  "name": "香蕉🍌",
+  "locations": [
+    {
+      "path": "",
+      "query": "",
+      "host": "ios.fuliapps.com",
+      "enabled": true,
+      "scheme": "",
+      "port": 0
+    }
+  ]
+}

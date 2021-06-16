@@ -1,0 +1,34 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"granted\":true",
+      "matchValue" : "\"granted\":false",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"is_for_subscription\":false\"",
+      "matchValue" : "\"is_for_subscription\":true\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "PicsArt美易照片编辑器去广告无限制使用素材@胖虎",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "api.meiyihudong.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 0
+    }
+  ]
+}

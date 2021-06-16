@@ -1,0 +1,45 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"time\":-1",
+      "matchValue" : "\"time\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"id\":1",
+      "matchValue" : "\"id\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "阿拉丁神盒(商店)永久管理员@无语",
+  "locations" : [
+    {
+      "path" : "\/login\/login\/veifys.html",
+      "query" : "",
+      "host" : "pgll.yuntutp6.top",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    },
+    {
+      "path" : "\/login\/login\/sign.html",
+      "query" : "",
+      "host" : "pgll.yuntutp6.top",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}
+下载地址 Appstore 商店版不用担心证书
+注册地址http://fx.ggbjj.top/app/index/qudao.html?uid=MQ==
+欢迎加入THOR 网球 分享交流吹牛，QQ群聊号码：371753413

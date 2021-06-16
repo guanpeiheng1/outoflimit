@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>patches</key>
+	<array>
+		<dict>
+			<key>UUID</key>
+			<string>D9FFAE67-2345-42F8-9272-9AD8E50FD173</string>
+			<key>apiVersion</key>
+			<integer>3</integer>
+			<key>appIdentifier</key>
+			<string>com.dangbeiyingshishequ.www</string>
+			<key>appVersion</key>
+			<string>1.1.7</string>
+			<key>author</key>
+			<string>@MO 454503002</string>
+			<key>cloudDescription</key>
+			<string></string>
+			<key>name</key>
+			<string>当贝影视社区 Patch</string>
+			<key>switchedOn</key>
+			<true/>
+			<key>units</key>
+			<array>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>XHLaunchAd</string>
+						<key>displayName</key>
+						<string>-(void) setupLaunchAd</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>setupLaunchAd</string>
+						<key>typeEncoding</key>
+						<string>v16@0:8</string>
+					</dict>
+					<key>name</key>
+					<string>去除启动广告</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>DBYMovieDetailController</string>
+						<key>displayName</key>
+						<string>-(void) setupDetailAD</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>setupDetailAD</string>
+						<key>typeEncoding</key>
+						<string>v16@0:8</string>
+					</dict>
+					<key>name</key>
+					<string>去除播放前/播放页面插入式广告</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>DBYHomeTableViewController</string>
+						<key>displayName</key>
+						<string>-(long long) numberOfSectionsInCollectionView:(id)</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>numberOfSectionsInCollectionView:</string>
+						<key>typeEncoding</key>
+						<string>q24@0:8@16</string>
+					</dict>
+					<key>name</key>
+					<string>去除插入式广告</string>
+					<key>overrides</key>
+					<array>
+						<dict>
+							<key>argument</key>
+							<integer>0</integer>
+							<key>type</key>
+							<dict>
+								<key>subtype</key>
+								<integer>0</integer>
+								<key>type</key>
+								<integer>9</integer>
+							</dict>
+							<key>value</key>
+							<dict>
+								<key>type</key>
+								<integer>9</integer>
+								<key>value</key>
+								<integer>7</integer>
+							</dict>
+						</dict>
+						<dict/>
+					</array>
+				</dict>
+			</array>
+</dict>
+	</array>
+</dict>
+</plist>

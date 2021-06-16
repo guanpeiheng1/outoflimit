@@ -1,0 +1,37 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"lifetimeMembership\":true",
+      "matchValue" : "\"lifetimeMembership\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"membership\":true",
+      "matchValue" : "\"membership\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "西窗烛",
+  "locations" : [
+    {
+      "path" : "\/1.1\/users\/5cd583590237d70069c57f02",
+      "query" : "",
+      "host" : "9pq709je.api.lncld.net",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}
+
+
+商店搜西窗烛，解锁全部会员功能

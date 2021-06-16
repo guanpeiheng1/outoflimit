@@ -1,0 +1,100 @@
+﻿{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "{\n  \"msg\" : \"ok\",\n  \"data\" : {\n    \"beanbalance\" : 9999,\n    \"pointbalance\" : 9999,\n    \"id\" : \"123456789\",\n    \"level\" : \"99\"\n    \"beanorignal\" : 9999,\n    \"coinbalance\" : 9999\n  },\n  \"code\" : 0",
+      "matchValue" : ".+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "add-header",
+      "matchField" : "",
+      "field" : "1.50去强制升级 支持密码房 门票房 计时房 等级房 金币和时间都为0免费时间和金币观看可用  数据为虚拟只可用于观看 不能刷礼物",
+      "value" : "",
+      "matchValue" : "",
+      "destiontion" : "request",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "ipa_version\": \"1.5.8",
+      "matchValue" : "ipa_version\": \"1.5.0",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "code\":0",
+      "matchValue" : "code\":1",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "0607小姐姐去升级破解完整版",
+  "locations" : [
+    {
+      "path" : "\/OpenAPI\/v1\/user\/money",
+      "query" : "",
+      "host" : "",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    },
+    {
+      "path" : "\/OpenAPI\/v1\/Private\/checkUserMoney",
+      "query" : "",
+      "host" : "",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    },
+    {
+      "path" : "\/OpenAPI\/v1\/private\/checkUserPoint",
+      "query" : "",
+      "host" : "",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    },
+    {
+      "path" : "\/OpenAPI\/v1\/Private\/checkPrivateCharge",
+      "query" : "",
+      "host" : "",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    },
+    {
+      "path" : "\/OpenAPI\/v1\/Private\/checkPrivatePass",
+      "query" : "",
+      "host" : "",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    },
+    {
+      "path" : "\/OpenAPI\/v1\/Config\/getliteversion",
+      "query" : "",
+      "host" : "",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    },
+    {
+      "path" : "\/OpenAPI\/v1\/Private\/checkPrivateLevel",
+      "query" : "",
+      "host" : "",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}

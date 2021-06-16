@@ -1,0 +1,88 @@
+
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"expiredTime\":7956892799",
+      "matchValue" : "\"expiredTime\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"expired\":0",
+      "matchValue" : "\"expired\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"remainTime\":9999999999999",
+      "matchValue" : "\"remainTime\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"savedMoney\":999999",
+      "matchValue" : "\"savedMoney\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"balance\":999999",
+      "matchValue" : "\"balance\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"giftBalance\":999999",
+      "matchValue" : "\"giftBalance\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"peerBalance\":999999",
+      "matchValue" : "\"peerBalance\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "微信读书无限卡@無语",
+  "locations" : [
+    {
+      "path" : "\/pay\/memberCardSummary",
+      "query" : "",
+      "host" : "i.weread.qq.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/pay\/balance",
+      "query" : "",
+      "host" : "i.weread.qq.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}

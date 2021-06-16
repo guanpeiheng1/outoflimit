@@ -1,0 +1,25 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"price\":\"0\"",
+      "matchValue" : "\"price\":\"1\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : false,
+  "name" : "意林读者通用",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "www.fengread.com",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}

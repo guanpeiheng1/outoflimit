@@ -1,0 +1,25 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"ppe_unlimited_user\":1",
+      "matchValue" : "\"ppe_unlimited_user\":\\d",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "泼辣修图",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "www.polaxiong.com",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"is_vip\":1",
+      "matchValue" : "\"is_vip\":\\d",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_type\":1",
+      "matchValue" : "\"vip_type\":\\d",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"success\":1",
+      "matchValue" : "\"success\":\\d",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_expire_time\":9999999999",
+      "matchValue" : "\"vip_expire_time\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "ºÚ”∞",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "api.jianmovie.com",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    },
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "api.jianmovie.com",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isYearUser\":\"2\"",
+      "matchValue" : "\"isYearUser\":\"0\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipExpire\":\"1738717749000\"",
+      "matchValue" : "\"vipExpire\":\"0\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipmExpire\":\"1738717749000\"",
+      "matchValue" : "\"vipmExpire\":\"0\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip3Expire\":\"1738717749000\"",
+      "matchValue" : "\"vip3Expire\":\"0\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipOverSeasExpire\":\"1738717749000\"",
+      "matchValue" : "\"vipOverSeasExpire\":\"0\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isNewUser\":\"2\"",
+      "matchValue" : "\"isNewUser\":\"1\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipLuxuryExpire\":\"1738717749000\"",
+      "matchValue" : "\"vipLuxuryExpire\":\"0\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "ø·Œ““Ù¿÷",
+  "locations" : [
+    {
+      "path" : "\/vip\/v2\/user\/vip",
+      "query" : "",
+      "host" : "vip1.kuwo.cn",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 0
+    }
+  ]
+}

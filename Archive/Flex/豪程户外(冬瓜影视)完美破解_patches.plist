@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>patches</key>
+	<array>
+		<dict>
+			<key>UUID</key>
+			<string>1906AFAB-A7F3-4969-9541-943BB6A9E48C</string>
+			<key>apiVersion</key>
+			<integer>3</integer>
+			<key>appIdentifier</key>
+			<string>com.haochengHuwai.com</string>
+			<key>appVersion</key>
+			<string>1.1</string>
+			<key>cloudDescription</key>
+			<string></string>
+			<key>name</key>
+			<string>豪程户外(冬瓜影视)完美破解</string>
+			<key>switchedOn</key>
+			<true/>
+			<key>units</key>
+			<array>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>UserModel</string>
+						<key>displayName</key>
+						<string>-(id) vipInfo</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>vipInfo</string>
+						<key>typeEncoding</key>
+						<string>@16@0:8</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(id) vipInfo</string>
+					<key>overrides</key>
+					<array>
+						<dict>
+							<key>argument</key>
+							<integer>0</integer>
+							<key>type</key>
+							<dict>
+								<key>subtype</key>
+								<integer>0</integer>
+								<key>type</key>
+								<integer>1</integer>
+							</dict>
+							<key>value</key>
+							<dict>
+								<key>type</key>
+								<integer>1</integer>
+								<key>value</key>
+								<string>(FLNULL)</string>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>DouBanObj</string>
+						<key>displayName</key>
+						<string>-(void) setLaunchAdUrl:(id)</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>setLaunchAdUrl:</string>
+						<key>typeEncoding</key>
+						<string>v24@0:8@16</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(void) setLaunchAdUrl:(id)</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>MediaPlayingAdSubview</string>
+						<key>displayName</key>
+						<string>-(void) setSkipBtn:(id)</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>setSkipBtn:</string>
+						<key>typeEncoding</key>
+						<string>v24@0:8@16</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(void) setSkipBtn:(id)</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>HomeViewController</string>
+						<key>displayName</key>
+						<string>-(void) setTopSubview:(id)</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>setTopSubview:</string>
+						<key>typeEncoding</key>
+						<string>v24@0:8@16</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(void) setTopSubview:(id)</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>MediaPlayHeaderView</string>
+						<key>displayName</key>
+						<string>-(void) setAdSubView:(id)</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>setAdSubView:</string>
+						<key>typeEncoding</key>
+						<string>v24@0:8@16</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(void) setAdSubView:(id)</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>HomeChildViewController</string>
+						<key>displayName</key>
+						<string>-(void) setHomeCilidHeaderView:(id)</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>setHomeCilidHeaderView:</string>
+						<key>typeEncoding</key>
+						<string>v24@0:8@16</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(void) setHomeCilidHeaderView:(id)</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>CustRecordTimerView</string>
+						<key>displayName</key>
+						<string>-(void) initTimer</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>initTimer</string>
+						<key>typeEncoding</key>
+						<string>v16@0:8</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(void) initTimer</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>HomeViewController</string>
+						<key>displayName</key>
+						<string>-(void) getActivityData</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>getActivityData</string>
+						<key>typeEncoding</key>
+						<string>v16@0:8</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(void) getActivityData</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>ChildHorTableViewCell</string>
+						<key>displayName</key>
+						<string>-(void) setAdSubView:(id)</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>setAdSubView:</string>
+						<key>typeEncoding</key>
+						<string>v24@0:8@16</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(void) setAdSubView:(id)</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>MediaPlaySubViewController</string>
+						<key>displayName</key>
+						<string>-(void) insertAdView</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>insertAdView</string>
+						<key>typeEncoding</key>
+						<string>v16@0:8</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(void) insertAdView</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>DouBanObj</string>
+						<key>displayName</key>
+						<string>-(void) setCenterAdData:(id)</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>setCenterAdData:</string>
+						<key>typeEncoding</key>
+						<string>v24@0:8@16</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(void) setCenterAdData:(id)</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>DouBanObj</string>
+						<key>displayName</key>
+						<string>-(void) setFullAdData:(id)</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>setFullAdData:</string>
+						<key>typeEncoding</key>
+						<string>v24@0:8@16</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(void) setFullAdData:(id)</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>DouBanObj</string>
+						<key>displayName</key>
+						<string>-(void) setLaunchAdImageUrl:(id)</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>setLaunchAdImageUrl:</string>
+						<key>typeEncoding</key>
+						<string>v24@0:8@16</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(void) setLaunchAdImageUrl:(id)</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>ChildHorTableViewCell</string>
+						<key>displayName</key>
+						<string>-(id) collectionView:(id) cellForItemAtIndexPath:(id)</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>collectionView:cellForItemAtIndexPath:</string>
+						<key>typeEncoding</key>
+						<string>@32@0:8@16@24</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(id) collectionView:(id) cellForItemAtIndexPath:(id)</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>ChildHorTableViewCell</string>
+						<key>displayName</key>
+						<string>-(void) setAdImageView:(id)</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>setAdImageView:</string>
+						<key>typeEncoding</key>
+						<string>v24@0:8@16</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(void) setAdImageView:(id)</string>
+					<key>overrides</key>
+					<array/>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>UserModel</string>
+						<key>displayName</key>
+						<string>-(bool) isVip</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>isVip</string>
+						<key>typeEncoding</key>
+						<string>B16@0:8</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(bool) isVip</string>
+					<key>overrides</key>
+					<array>
+						<dict>
+							<key>argument</key>
+							<integer>0</integer>
+							<key>type</key>
+							<dict>
+								<key>subtype</key>
+								<integer>0</integer>
+								<key>type</key>
+								<integer>6</integer>
+							</dict>
+							<key>value</key>
+							<dict>
+								<key>type</key>
+								<integer>6</integer>
+								<key>value</key>
+								<true/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>methodObjc</key>
+					<dict>
+						<key>className</key>
+						<string>UserModel</string>
+						<key>displayName</key>
+						<string>-(id) userName</string>
+						<key>prefix</key>
+						<string>-</string>
+						<key>selector</key>
+						<string>userName</string>
+						<key>typeEncoding</key>
+						<string>@16@0:8</string>
+					</dict>
+					<key>name</key>
+					<string>Unit for -(id) userName</string>
+					<key>overrides</key>
+					<array>
+						<dict/>
+					</array>
+				</dict>
+			</array>
+</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,43 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"DueTime\":\"\\\/Date(9545400040910)\\\/\"",
+      "matchValue" : "\"DueTime\":\"[^\"]+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"StopTime\":\"\\\/Date(9549644728000)\\\/\"",
+      "matchValue" : "\"StopTime\":\"[^\"]+\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"ChannelState\":3",
+      "matchValue" : "\"ChannelState\":\\d",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "»ÆÉ«BPN",
+  "locations" : [
+    {
+      "path" : "\/lygamesService.asmx\/FeevisitorLoginReg",
+      "query" : "",
+      "host" : "47.52.182.226",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 0
+    }
+  ]
+}

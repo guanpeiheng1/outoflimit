@@ -1,0 +1,27 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isValidSubscriber\":true",
+      "matchValue" : "\"isValidSubscriber\":\\w+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "Infltr无限滤镜内购专业版",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "live.infltr.us",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}
+
+开启后，进入app内点击左上角的专业版，然后点击最底部的已购恢复，输入自己的账密通过验证后等待恢复即可。

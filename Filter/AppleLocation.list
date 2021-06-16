@@ -1,0 +1,49 @@
+# Apple地理限制
+# 打开飞行模式，然后保持 WiFi 连接
+# 打开地图应用，你会看到内容闪烁一下便切到了没有高德地图的版本
+USER-AGENT,*com.apple.mobileme.fmip1,AppleLocation
+# Weather
+USER-AGENT,*WeatherFoundation*,AppleLocation
+DOMAIN,weather-data.apple.com,AppleLocation
+# Maps
+USER-AGENT,%E5%9C%B0%E5%9B%BE*,AppleLocation
+# Settings
+USER-AGENT,%E8%AE%BE%E7%BD%AE*,AppleLocation
+USER-AGENT,com.apple.geod*,AppleLocation
+USER-AGENT,com.apple.Maps,AppleLocation
+USER-AGENT,FindMyFriends*,AppleLocation
+USER-AGENT,FindMyiPhone*,AppleLocation
+USER-AGENT,FMDClient*,AppleLocation
+USER-AGENT,FMFD*,AppleLocation
+USER-AGENT,fmflocatord*,AppleLocation
+USER-AGENT,geod*,AppleLocation
+USER-AGENT,locationd*,AppleLocation
+USER-AGENT,Maps*,AppleLocation
+
+#
+# Spotlight
+DOMAIN,api.smoot.apple.com,AppleLocation
+DOMAIN,api.smoot.apple.cn,AppleLocation
+# Hotspot captive
+DOMAIN,captive.apple.com,AppleLocation
+# Apple Pay
+DOMAIN,smp-device-content.apple.com,AppleLocation
+DOMAIN-KEYWORD,smp-device,AppleLocation
+USER-AGENT,passd*,AppleLocation
+USER-AGENT,Wallet*,AppleLocation
+# locationd
+DOMAIN,gs-loc.apple.com,AppleLocation
+DOMAIN-SUFFIX,ls.apple.com.akadns.net,AppleLocation
+DOMAIN-SUFFIX,ls.apple.com.edgesuite.net,AppleLocation
+# Reserve
+DOMAIN,reserve-prime.apple.com,AppleLocation
+# Push
+DOMAIN-KEYWORD,push-apple.com.akadns.net,AppleLocation
+DOMAIN-SUFFIX,push.apple.com.akadns.net,AppleLocation
+DOMAIN-SUFFIX,push.apple.com,AppleLocation
+# GeoServices.framework
+DOMAIN-SUFFIX,ls.apple.com,AppleLocation
+# Asset Cache Locator Service
+DOMAIN-SUFFIX,lcdn-locator.apple.com,AppleLocation
+# Caching Server Registration
+DOMAIN-SUFFIX,lcdn-registration.apple.com,AppleLocation

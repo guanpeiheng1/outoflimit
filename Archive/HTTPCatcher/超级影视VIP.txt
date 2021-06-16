@@ -1,0 +1,34 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"time\":7956882115",
+      "matchValue" : "\"time\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "超级影视VIP@無语",
+  "locations" : [
+    {
+      "path" : "\/login\/login\/sign.html",
+      "query" : "",
+      "host" : "peter2.iego.net",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    },
+    {
+      "path" : "\/login\/login\/veifys.html",
+      "query" : "",
+      "host" : "peter2.iego.net",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}
+复制截止到上面符号，下载链接https://dibaqu.com/SuperVip

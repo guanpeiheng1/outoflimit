@@ -1,0 +1,91 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_start_time\":\"1558228018\"",
+      "matchValue" : "\"vip_start_time\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"expires_in\":2915226418",
+      "matchValue" : "\"expires_in\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isvip\":\"0\"",
+      "matchValue" : "\"isvip\":\"\\d\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"is_pay\":1",
+      "matchValue" : "\"is_pay\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"isPrivilege\":2",
+      "matchValue" : "\"isPrivilege\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_type\":3",
+      "matchValue" : "\"vip_type\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"privilege_overtime\":\"2099-05-19 10:35:15\"",
+      "matchValue" : "\"privilege_overtime\":\"\\d{4}[-\/]\\d{2}[-\/]\\d{2}  \\d{2}:\\d{2}:\\d{2}\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_days\":\"99999999\"",
+      "matchValue" : "\"vip_days\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "红尘书院@Barbital",
+  "locations" : [
+    {
+      "path" : "\/\/index.php\/api\/User\/userLogin",
+      "query" : "",
+      "host" : "hc.4008109966.net",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}
+
+
+商店搜红尘书院

@@ -1,0 +1,35 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "user_points\":999",
+      "matchValue" : "user_points\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "user_login_num\":998",
+      "matchValue" : "user_login_num\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "看米奇",
+  "locations" : [
+    {
+      "path" : "\/api\/v2\/user\/kanmiqi\/login",
+      "query" : "",
+      "host" : "hzmanfeisy.com",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 0
+    }
+  ]
+}
+复制到上面符号为止，本段不要复制，看米奇无限次数，下载地址http://www.shanxrd.com/?inviteCode=FE9J

@@ -1,0 +1,54 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"admin\":true",
+      "matchValue" : "\"admin\":false",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipExpire\":false",
+      "matchValue" : "\"vipExpire\":true",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipLevel\":1",
+      "matchValue" : "\"vipLevel\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipName\":\"巴比妥会员\"",
+      "matchValue" : "\"vipName\":\"\\w+\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "橘子视频@Barbital",
+  "locations" : [
+    {
+      "path" : "\/v1\/users\/info",
+      "query" : "",
+      "host" : "www.51jzspapp.com",
+      "enabled" : true,
+      "scheme" : "http",
+      "port" : 80
+    }
+  ]
+}
+
+地址https://i.zz131.com/635

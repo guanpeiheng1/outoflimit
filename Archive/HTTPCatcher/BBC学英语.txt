@@ -1,0 +1,45 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipStatus\":\"1\"",
+      "matchValue" : "\"vipStatus\":\"\\d\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"expireTime\":2283431779",
+      "matchValue" : "\"expireTime\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"icoins\":\"999999\"",
+      "matchValue" : "\"icoins\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "BBC学英语@Barbital",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "api.iyuba.com.cn",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    }
+  ]
+}
+
+开启重写后点击一下积分，返回即可开启所有权限，地址https://itunes.apple.com/cn/app/ai%E5%AD%A6%E8%8B%B1%E8%AF%AD-%E6%AF%8F%E6%97%A5%E8%8B%B1%E8%AF%AD%E5%90%AC%E5%8A%9B%E8%A7%86%E9%A2%91/id1138256662?mt=8

@@ -1,0 +1,116 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipLevel\":\"8\"",
+      "matchValue" : "\"vipLevel\":\"\\d\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"levelEndTime\":\"3420168909000\"",
+      "matchValue" : "\"levelEndTime\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipEndTime\":\"3420168909000\"",
+      "matchValue" : "\"vipEndTime\":\"\\d+\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"amound\":9999999",
+      "matchValue" : "\"amound\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"payAmount\":999999999999",
+      "matchValue" : "\"payAmount\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"endTime\":3420168909000",
+      "matchValue" : "\"endTime\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"error\":\"\"",
+      "matchValue" : "\"error\":\"用户钻石账户余额不足\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"status\":0",
+      "matchValue" : "\"status\":62001",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"status\":1",
+      "matchValue" : "\"status\":\\d",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "足记@Barbital",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "www.fotoplace.cc",
+      "enabled" : true,
+      "scheme" : "",
+      "port" : 0
+    },
+    {
+      "path" : "\/app2\/api\/order\/dress\/buy",
+      "query" : "",
+      "host" : "www.fotoplace.cc",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    },
+    {
+      "path" : "\/app2\/api\/user\/mission\/all",
+      "query" : "",
+      "host" : "www.fotoplace.cc",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}
+
+
+商店搜足记，没有就去港区，解锁vip8，所有衣服都可以穿

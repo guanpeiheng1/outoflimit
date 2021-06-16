@@ -1,0 +1,34 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"uservipexpiretime\":\"1970646738158\"",
+      "matchValue" : "\"uservipexpiretime\":\"0\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"userviptype\":\"1\"",
+      "matchValue" : "\"userviptype\":\"\\d\"",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : true,
+  "name" : "K米",
+  "locations" : [
+    {
+      "path" : "\/",
+      "query" : "",
+      "host" : "mobile.ktvme.com",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}

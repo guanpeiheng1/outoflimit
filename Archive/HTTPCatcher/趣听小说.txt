@@ -1,0 +1,45 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_start_time\":1557627209",
+      "matchValue" : "\"vip_start_time\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vip_end_time\":2819931209",
+      "matchValue" : "\"vip_end_time\":\\d+",
+      "destiontion" : "response",
+      "isRegex" : false
+    },
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"username\":\"Barbital\"",
+      "matchValue" : "\"username\":\"\\w+\"",
+      "destiontion" : "response",
+      "isRegex" : false
+    }
+  ],
+  "enabled" : true,
+  "name" : "趣听小说@Barbital",
+  "locations" : [
+    {
+      "path" : "\/voiceduser_index",
+      "query" : "",
+      "host" : "s.hxdrive.net",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 443
+    }
+  ]
+}
+
+商店搜趣听小说，解锁vip

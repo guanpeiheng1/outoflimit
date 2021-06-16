@@ -1,0 +1,45 @@
+{
+  "rules" : [
+
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipstatus\":\"2\"",
+      "matchValue" : "\"vipstatus\":\"0\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   }, 
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipType\":\"2\"",
+      "matchValue" : "\"vipType\":\"0\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   }, 
+ {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "\"vipLevel\":\"2\"",
+      "matchValue" : "\"vipLevel\":\"0\"",
+      "destiontion" : "response",
+      "isRegex" : true
+   },
+  ],
+  "enabled" : true,
+  "name" : "驾校宝典VIP",
+  "locations" : [
+    {
+      "path" : "",
+      "query" : "",
+      "host" : "",
+      "enabled" : true,
+      "scheme" : "https",
+      "port" : 0
+    }
+  ]
+}
+此规则由过滤器转重写捷径完成 过滤器来自网络 捷径可以在捷径盒下载。
