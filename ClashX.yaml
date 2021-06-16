@@ -1,0 +1,218 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+proxy-providers:
+  provider:
+    type: http
+    url: https://cdn.jsdelivr.net/gh/paytonguan/outoflimit@master/list_clash.yaml
+    interval: 3600
+    path: ./proxyset/provider.yaml
+    health-check:
+      enable: true
+      interval: 600
+      # lazy: true
+      url: http://www.gstatic.com/generate_204
+
+proxy-groups:
+  - name: PROXY
+    type: select
+    use:
+      - provider
+    proxies:
+      - 延迟测试
+      - 健康检测
+      - 负载均衡
+      - DIRECT
+
+  - name: 漏网之鱼
+    type: select
+    use:
+      - provider
+    proxies:
+      - DIRECT
+      - PROXY
+      - REJECT
+
+  - name: 国外网站
+    type: select
+    use:
+      - provider
+    proxies:
+      - PROXY
+      - DIRECT
+      - REJECT
+
+  - name: 国外影视
+    type: select
+    use:
+      - provider
+    proxies:
+      - PROXY
+      - DIRECT
+      - REJECT
+
+  - name: PayPal
+    type: select
+    use:
+      - provider
+    proxies:
+      - PROXY
+      - DIRECT
+      - REJECT
+
+  - name: Netflix
+    type: select
+    use:
+      - provider
+    proxies:
+      - PROXY
+      - DIRECT
+      - REJECT
+
+  - name: Spotify
+    type: select
+    use:
+      - provider
+    proxies:
+      - PROXY
+      - DIRECT
+      - REJECT
+
+  - name: 广告拦截
+    type: select
+    use:
+      - provider
+    proxies:
+      - REJECT
+      - PROXY
+      - DIRECT
+
+  - name: 运营商劫持
+    type: select
+    use:
+      - provider
+    proxies:
+      - DIRECT
+      - PROXY
+      - REJECT
+
+  - name: 隐私跟踪
+    type: select
+    use:
+      - provider
+    proxies:
+      - DIRECT
+      - PROXY
+      - REJECT
+
+  - name: 延迟测试
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use:
+      - provider
+
+  - name: 健康检测
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use:
+      - provider
+
+  - name: 负载均衡
+    type: load-balance
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use:
+      - provider
+
+
+rule-providers:
+  Advertising:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Guard/Advertising.yaml
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Advertising.yaml
+    interval: 86400
+
+  Hijacking:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Guard/Hijacking.yaml
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Hijacking.yaml
+    interval: 86400
+
+  Privacy:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Guard/Privacy.yaml
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Privacy.yaml
+    interval: 86400
+
+  ForPayPal:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Extra/PayPal.yaml
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/PayPal.yaml
+    interval: 86400
+
+  ForNetflix:
+    type: http
+    behavior: classical
+    path: ./RuleSet/StreamingMedia/Video/Netflix.yaml
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Video/Netflix.yaml
+    interval: 86400
+
+  ForSpotify:
+    type: http
+    behavior: classical
+    path: ./RuleSet/StreamingMedia/Music/Spotify.yaml
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Music/Spotify.yaml
+    interval: 86400
+
+  Streaming:
+    type: http
+    behavior: classical
+    path: ./RuleSet/StreamingMedia/Streaming.yaml
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Streaming.yaml
+    interval: 86400
+
+  Global:
+    type: http
+    behavior: classical
+    path: ./RuleSet/Global.yaml
+    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Global.yaml
+    interval: 86400
+
+rules:
+  # Local Area Network
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - IP-CIDR,224.0.0.0/4,DIRECT
+  - IP-CIDR,fe80::/10,DIRECT
+
+  # Tencent
+  - IP-CIDR,119.28.28.28/32,DIRECT
+  - IP-CIDR,182.254.116.0/24,DIRECT
+
+  - RULE-SET,Advertising,广告拦截
+  - RULE-SET,Hijacking,运营商劫持
+  - RULE-SET,Privacy,隐私跟踪
+  - RULE-SET,ForPayPal,PayPal
+  - RULE-SET,ForNetflix,Netflix
+  - RULE-SET,ForSpotify,Spotify 
+  - RULE-SET,Streaming,国外影视
+  - RULE-SET,Global,国外网站
+
+  - GEOIP,CN,DIRECT
+  - MATCH,漏网之鱼
+
+cfw-bypass:
+  - 'music.163.com' # 网易云域名1
+  - '*.music.126.net' # 网易云域名2
