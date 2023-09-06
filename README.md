@@ -64,7 +64,6 @@ https://github.com/pm936/httpcatcher
 
 ```
 # QuantumultX
-https://cdn.jsdelivr.net/gh/guanpeiheng1/outoflimit@master/QuantumultX_With_Task.conf
 https://cdn.jsdelivr.net/gh/guanpeiheng1/outoflimit@master/QuantumultX.conf
 
 # Shadowrocket
