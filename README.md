@@ -1,70 +1,11 @@
 # Outoflimit
 
-```
-直播源
-https://github.com/ddgksf2013/M3U8LIST
-https://github.com/YueChan/Live
-
-部分可添加但未添加的库：
-# 京东
-https://github.com/shufflewzc/faker2
-https://github.com/shufflewzc/faker3
-https://github.com/Gnuyoah/Thread
-https://github.com/KingRan/KR
-https://github.com/smiek2121/scripts
-https://github.com/zero205/JD_tencent_scf
-https://github.com/cdle/carry
-https://github.com/curtinlv/JD-Script
-https://github.com/DovFork/jiulan
-https://github.com/6dylan6/jdpro
-https://github.com/Tsukasa007/my_script
-
-# 其它
-https://github.com/Ariszy/Private-Script
-https://github.com/I-am-R-E/Functional-Store-Hub
-https://github.com/nameking77/Qx
-https://github.com/yichahucha/surge/tree/master
-https://github.com/mieqq/mieqq/
-https://github.com/ikanam/Surge-Scripts
-https://github.com/toulanboy/scripts
-https://github.com/I-am-R-E/Functional-Store-Hub/
-https://github.com/I-am-R-E/QuantumultX/
-https://github.com/chouchoui/QuanX/
-https://github.com/DecoAri/JavaScript
-https://github.com/JoJoJotarou/myScript
-https://gitlab.com/lodepuly/vpn_tool/
-https://github.com/Maasea/sgmodule
-https://github.com/evilbutcher/QuantumultX
-https://github.com/Marcio2536/MySurge/
-https://github.com/xream/scripts/
-https://github.com/fishingworld/something
-https://github.com/GideonSenku/figma-image-upload/
-https://github.com/telegram-sms/telegram-sms
-https://github.com/NavePnow/next-tasks
-https://github.com/0KABE/BeQX/tree/dev
-https://github.com/ClydeTime/Quantumult
-https://github.com/qulingyuan/robVeg
-https://github.com/app2smile/rules
-https://github.com/VirgilClyne/Cloudflare
-https://github.com/FoKit/Scripts
-https://github.com/githubdulong/Script
-https://github.com/ddgksf2013/ddgksf2013
-https://github.com/ddgksf2013/Profile
-https://github.com/ddgksf2013/Rewrite
-https://github.com/ddgksf2013/Scripts
-https://github.com/zmqcherish/proxy-script
-https://github.com/BiliUniverse/Universe
-https://github.com/Semporia/TikTok-Unlock
-
-# Http Catcher
-https://github.com/pm936/httpcatcher
-```
-
 文件链接如下。
 
 ```
 # QuantumultX
 https://cdn.jsdelivr.net/gh/guanpeiheng1/outoflimit@master/QuantumultX.conf
+https://cdn.jsdelivr.net/gh/guanpeiheng1/outoflimit@master/QuantumultX_Mac.conf
 
 # Shadowrocket
 https://cdn.jsdelivr.net/gh/guanpeiheng1/outoflimit@master/Shadowrocket.conf
@@ -90,51 +31,113 @@ https://loon-gallery.vercel.app
 ## QuantumultX
 
 分流、重写、任务脚本完全定制。
+TODO: local 的找到对应实现
+
+|                         仓库                         | 分流 | 重写 | 任务 |                                            BoxJs                                            |
+|------------------------------------------------------|------|------|------|---------------------------------------------------------------------------------------------|
+| https://github.com/DivineEngine/Profiles/tree/master | ✓    | ✓    |      |                                                                                             |
+| https://github.com/Semporia/TikTok-Unlock            | ✓    | ✓    |      |                                                                                             |
+| https://github.com/LawrenceYep/ruleList              | ✓    |      |      |                                                                                             |
+| https://github.com/zZPiglet/Task/tree/master         |      | ✓    | ✓    | https://raw.githubusercontent.com/zZPiglet/Task/master/zZPiglet.boxjs.json                  |
+| https://ooxx.be/js/                                  |      |      | ✓    |                                                                                             |
+| https://github.com/ZCY01/daily_scripts/tree/main     |      | ✓    | ✓    | https://raw.githubusercontent.com/ZCY01/daily_scripts/main/zcy01.boxjs.json                 |
+| https://github.com/app2smile/rules                   | ✓    | ✓    |      |                                                                                             |
+| https://github.com/iisams/Scripts                    |      | -    | -    |                                                                                             |
+| https://github.com/DualSubs/Universal                |      | -    |      | https://raw.githubusercontent.com/DualSubs/BoxJs/main/DualSubs.BoxJs.json                   |
+| https://github.com/VirgilClyne/GetSomeFries          |      | -    |      | https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/BoxJs/Fries.boxjs.beta.json |
+| https://github.com/VirgilClyne/iRingo                |      | -    |      | https://raw.githubusercontent.com/VirgilClyne/iRingo/main/BoxJs/iRingo.BoxJs.json           |
+| https://github.com/elecV2/QuantumultX-Tools          |      | ✓    |      |                                                                                             |
+| https://github.com/BiliUniverse/Universe             |      | -    |      |                                                                                             |
+| https://github.com/banditlives/Scripting/tree/master |      | ✓    |      |                                                                                             |
+|                                                      |      |      |      |                                                                                             |
+
+注：✓表示存在且使用，-表示存在但不使用，空表示不存在。
+
+
 
 ```
-# 配置文件
-https://github.com/nzw9314/QuantumultX/tree/master
+https://github.com/LTribeSkyx/Script
+https://github.com/iepngs/Script
+https://github.com/photonmang/quantumultX/
+https://github.com/toulanboy/scripts
+https://github.com/dompling/Script
+https://github.com/lowking/Scripts
 
-# 分流&重写
-https://github.com/DivineEngine/Profiles/tree/master
-https://github.com/geekdada/surge-list/blob/master/surgio-snippet/apple.tpl
+https://github.com/barrym-chen/Script
 
-# 任务
-https://github.com/app2smile/rules
-https://github.com/Semporia/TikTok-Unlock
-https://github.com/nzw9314/QuantumultX/tree/master/onewayticket255
-https://github.com/VirgilClyne/iRingo
+https://github.com/nzw9314/Scripting
+https://github.com/nzw9314/Profiles
+
+https://github.com/MeetaGit/MeetaRules
+https://github.com/ejiaogl/UnlockVIP
 https://github.com/NobyDa/Script/tree/master
 https://github.com/chavyleung/scripts
-https://github.com/zZPiglet/Task/tree/master
 https://github.com/songyangzz/QuantumultX
-https://github.com/toulanboy/scripts
+
 https://github.com/Sunert/Script
 https://github.com/Peng-YM/QuanX
-https://github.com/iepngs/Script
 https://github.com/chouchoui/QuanX
 https://github.com/id77/QuantumultX/tree/master/task
-https://github.com/lowking/Scripts
-https://github.com/dompling/Script
+
+
 https://github.com/barrym-chen/Script
-https://github.com/wangdelu2020/hongliyu
-https://github.com/congcong0806/surge-list/tree/master/Script
-https://gitee.com/passerby-b/javascript
-https://github.com/photonmang/quantumultX/
-https://github.com/iisams/Scripts
+
+
 https://github.com/DD-D1/2020scripts
 https://github.com/blackmatrix7/ios_rule_script/tree/master/script
 https://github.com/yichahucha/surge/tree/master
-https://github.com/NavePnow/Profiles
 https://github.com/elecV2/QuantumultX-Tools
 https://github.com/CenBoMin/GithubSync
 https://github.com/banditlives/Scripting/tree/master
-https://ooxx.be/js/
-https://github.com/VirgilClyne/GetSomeFries
-https://github.com/dualsubs/dualsubs
-https://github.com/ZCY01/daily_scripts
 https://github.com/zmqcherish/proxy-script
 https://github.com/sve1r/Rules-For-Quantumult-X
+
+
+# 京东
+https://github.com/shufflewzc/faker2
+https://github.com/shufflewzc/faker3
+https://github.com/Gnuyoah/Thread
+https://github.com/KingRan/KR
+https://github.com/smiek2121/scripts
+https://github.com/zero205/JD_tencent_scf
+https://github.com/cdle/carry
+https://github.com/curtinlv/JD-Script
+https://github.com/DovFork/jiulan
+https://github.com/6dylan6/jdpro
+https://github.com/Tsukasa007/my_script
+
+# 其它
+https://github.com/Ariszy/Private-Script
+https://github.com/I-am-R-E/Functional-Store-Hub
+https://github.com/nameking77/Qx
+https://github.com/mieqq/mieqq/
+https://github.com/toulanboy/scripts
+https://github.com/I-am-R-E/Functional-Store-Hub/
+https://github.com/I-am-R-E/QuantumultX/
+https://github.com/chouchoui/QuanX/
+https://github.com/DecoAri/JavaScript
+https://github.com/JoJoJotarou/myScript
+https://gitlab.com/lodepuly/vpn_tool/
+https://github.com/Maasea/sgmodule
+https://github.com/evilbutcher/QuantumultX
+
+https://github.com/xream/scripts/
+https://github.com/fishingworld/something
+https://github.com/GideonSenku/figma-image-upload/
+https://github.com/telegram-sms/telegram-sms
+https://github.com/NavePnow/next-tasks
+https://github.com/0KABE/BeQX/tree/dev
+https://github.com/ClydeTime/Quantumult
+https://github.com/qulingyuan/robVeg
+https://github.com/app2smile/rules
+https://github.com/VirgilClyne/Cloudflare
+https://github.com/FoKit/Scripts
+https://github.com/githubdulong/Script
+https://github.com/ddgksf2013/ddgksf2013
+https://github.com/ddgksf2013/Profile
+https://github.com/ddgksf2013/Rewrite
+https://github.com/ddgksf2013/Scripts
+https://github.com/zmqcherish/proxy-script
 ```
 
 ## Clash
@@ -145,25 +148,21 @@ Clash的策略组暂时无法使用正则表达式，因此无法实现节点筛
 
 现有问题：无法使用Shadowsocks的websocket混淆。
 
-```
-# 分流
-https://github.com/DivineEngine/Profiles/tree/master
-```
+|                         仓库                         | 分流 | 重写 | 任务 |
+|------------------------------------------------------|------|------|------|
+| https://github.com/DivineEngine/Profiles/tree/master | ✓    | ✓    |      |
 
 ## Shadowrocket
 
 实现完整的配置文件。
 
-```
-# 分流
-https://github.com/h2y/Shadowrocket-ADBlock-Rules
-https://github.com/ACL4SSR/ACL4SSR/tree/master
-https://github.com/DivineEngine/Profiles/tree/master
-
-# 脚本
-https://github.com/Tartarus2014/Shadowrocket-Script
-https://github.com/w37fhy/QuantumultX
-```
+|                         仓库                         | 分流 | 重写 | 任务 |
+|------------------------------------------------------|------|------|------|
+| https://github.com/h2y/Shadowrocket-ADBlock-Rules    | ✓    | ✓    |      |
+| https://github.com/ACL4SSR/ACL4SSR/tree/master       | ✓    | ✓    |      |
+| https://github.com/DivineEngine/Profiles/tree/master | ✓    | ✓    |      |
+| https://github.com/Tartarus2014/Shadowrocket-Script  |      | ✓    |      |
+| https://github.com/w37fhy/QuantumultX                |      | ✓    |      |
 
 ## 注意事项
 
