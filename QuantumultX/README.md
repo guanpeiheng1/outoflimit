@@ -1,14 +1,16 @@
 # Quantumult X
 
-Cookie.conf: Cookie重写订阅
+Rewrite 下的是重写脚本链接，Script 下的是重写脚本本身。
 
-Script.conf: 整合脚本订阅
+generate_conf.sh 根据 Sources 里面整理好的 conf，生成在 QuantumultX 可用的配置文件。用法如下：
 
-Script_Test.conf: 测试用脚本订阅
+```
+# Cookie
+./generate_conf.sh Sources/Cookie Cookie.conf
 
-Task.conf: 任务脚本订阅
-
-Task.json: 任务脚本仓库
+# 脚本
+./generate_conf.sh Sources/Script Script.conf
+```
 
 # 任务不可用列表
 
