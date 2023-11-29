@@ -8,7 +8,7 @@ ReadOneConf() {
 			hostname=${line##*=}
 			HOSTNAMES="${HOSTNAMES}${hostname},"
 		else
-			SCRIPTS="${SCRIPTS}\n${line}"
+			SCRIPTS[${#SCRIPTS[@]}]="${line}"
 		fi
 	done < $1
 }
@@ -17,7 +17,11 @@ main() {
 	INPUT_DIR=$1
 	OUTPUT_CONF=$2
 	HOSTNAMES=""
-	SCRIPTS=""
+	SCRIPTS=()
+
+	# 保存默认的 IFS 并指定为新的分隔符，避免按照空格分隔
+	IFSBAK=$IFS 
+	IFS=$'\n'
 
 	for file in `ls ${INPUT_DIR}`
 	do
@@ -30,7 +34,13 @@ main() {
 	echo "" > ${OUTPUT_CONF}
 	echo "hostname =${HOSTNAMES}" >> ${OUTPUT_CONF}
 	echo "" >> ${OUTPUT_CONF}
-	echo -e ${SCRIPTS} >> ${OUTPUT_CONF}
+	for i in ${SCRIPTS[@]}
+	do
+		echo $i >> ${OUTPUT_CONF}
+	done
+
+	# 还原默认分隔符
+	IFS=$IFSBAK
 }
 
 
