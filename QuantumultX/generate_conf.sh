@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ReadOneConf() {
-	while read line
+	while read -r line
 	do
 		if [[ ${line} =~ ^hostname.*  ]];
 		then

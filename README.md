@@ -137,6 +137,7 @@ TODO: 一个文件只能指定一个 hostname，写一个脚本合并 hostname
 
 ```
 https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/100269fc92d8ed607fd5f105c2c5b32876101ff1/dlm.js
+https://gist.githubusercontent.com/Sliverkiss/585daf69a0a6c7243db8993f5394a124/raw/youzan.js
 https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/sliverkiss.gallery.json
 https://sharecuts.cn/shortcut/12366
 ```
