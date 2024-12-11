@@ -29,123 +29,241 @@ https://🎈.com
 https://loon-gallery.vercel.app
 ```
 
-## QuantumultX
 
 分流、重写、任务脚本完全定制。
 TODO: local 的找到对应实现
 TODO: 一个文件只能指定一个 hostname，写一个脚本合并 hostname
 
+## 脚本情况
 
-分流-重写-任务
+## BoxJs
 
-注：✓表示存在且使用，-表示存在但不使用，/表示不存在。
+```
+# blackmatrix7
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/boxjs.json 
+# FoKit
+https://raw.githubusercontent.com/FoKit/Scripts/main/boxjs/fokit.boxjs.json
+# dompling
+https://raw.githubusercontent.com/dompling/Script/master/dompling.boxjs.json
+# lowking
+https://raw.githubusercontent.com/lowking/Scripts/master/boxjs.sysapps.json
+https://raw.githubusercontent.com/lowking/Scripts/master/empty.app.boxjs.json
+https://raw.githubusercontent.com/lowking/Scripts/master/lowking.boxjs.json
+https://raw.githubusercontent.com/lowking/Scripts/master/lowking.boxjs.removed.json
+https://raw.githubusercontent.com/lowking/Scripts/master/others.boxjs.json
+# chouchoui
+https://raw.githubusercontent.com/chouchoui/QuanX/master/vei.boxjs.json
 
 
-|                                仓库                                | QuantumultX | Surge |                                            BoxJs                                            |
-|--------------------------------------------------------------------|-------------|-------|---------------------------------------------------------------------------------------------|
-| https://github.com/DivineEngine/Profiles/tree/master               | ✓✓/         | ✓-/   |                                                                                             |
-| https://github.com/Semporia/TikTok-Unlock                          | ✓✓/         | /✓/   |                                                                                             |
-| https://github.com/LawrenceYep/ruleList                            | ✓//         | -//   |                                                                                             |
-| https://github.com/zZPiglet/Task/tree/master                       | /✓✓         |       | https://raw.githubusercontent.com/zZPiglet/Task/master/zZPiglet.boxjs.json                  |
-| https://ooxx.be/js/                                                | //✓         |       |                                                                                             |
-| https://github.com/ZCY01/daily_scripts/tree/main                   | /✓✓         |       | https://raw.githubusercontent.com/ZCY01/daily_scripts/main/zcy01.boxjs.json                 |
-| https://github.com/app2smile/rules                                 | ✓✓/         |       |                                                                                             |
-| https://github.com/iisams/Scripts                                  | /--         |       |                                                                                             |
-| https://github.com/DualSubs/Universal                              | /-/         |       | https://raw.githubusercontent.com/DualSubs/BoxJs/main/DualSubs.BoxJs.json                   |
-| https://github.com/VirgilClyne/GetSomeFries                        | /-/         |       | https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/BoxJs/Fries.boxjs.beta.json |
-| https://github.com/VirgilClyne/iRingo                              | /-/         |       | https://raw.githubusercontent.com/VirgilClyne/iRingo/main/BoxJs/iRingo.BoxJs.json           |
-| https://github.com/elecV2/QuantumultX-Tools                        | /✓/         |       |                                                                                             |
-| https://github.com/BiliUniverse/Universe                           | /-/         |       |                                                                                             |
-| https://github.com/banditlives/Scripting/tree/master               | /✓/         |       |                                                                                             |
-|                                                                    |             |       |                                                                                             |
-| TODO                                                               |             |       |                                                                                             |
-|                                                                    |             |       |                                                                                             |
-| https://github.com/VirgilClyne/Cloudflare                          |             |       |                                                                                             |
-| https://github.com/blackmatrix7/ios_rule_script/tree/master/script |             |       |                                                                                             |
-| https://github.com/FoKit/Scripts                                   |             |       |                                                                                             |
-| https://github.com/Yuheng0101/X                                    |             |       |                                                                                             |
-| https://github.com/Sliverkiss/GoodNight/tree/master                |             |       |                                                                                             |
-| https://github.com/Script-Hub-Org/Script-Hub                       |             |       |                                                                                             |
-| https://github.com/rucu6/QuanX/                                    |             |       |                                                                                             |
-| https://github.com/evilbutcher/QuantumultX                         |             |       |                                                                                             |
-| https://github.com/wf021325/qx                                     |             |       |                                                                                             |
-| https://github.com/chavyleung/scripts                              |             |       |                                                                                             |
-| https://github.com/Crazy-Z7/Task                                   |             |       |                                                                                             |
-| https://github.com/sub-store-org/Sub-Store                         |             |       |                                                                                             |
-| https://github.com/NobyDa/Script/tree/master                       |             |       |                                                                                             |
-| https://github.com/mieqq/mieqq                                     |             |       |                                                                                             |
-| https://github.com/KOP-XIAO/QuantumultX                            |             |       |                                                                                             |
-| https://github.com/app2smile/rules                                 |             |       |                                                                                             |
-| https://github.com/githubdulong/Script/                            |             |       |                                                                                             |
-| https://github.com/LTribeSkyx/Script                               |             |       |                                                                                             |
-| https://github.com/iepngs/Script                                   |             |       |                                                                                             |
-| https://github.com/photonmang/quantumultX/                         |             |       |                                                                                             |
-| https://github.com/toulanboy/scripts                               |             |       |                                                                                             |
-| https://github.com/dompling/Script                                 |             |       |                                                                                             |
-| https://github.com/lowking/Scripts                                 |             |       |                                                                                             |
-| https://github.com/barrym-chen/Script                              |             |       |                                                                                             |
-| https://github.com/nzw9314/Scripting                               |             |       |                                                                                             |
-| https://github.com/nzw9314/Profiles                                |             |       |                                                                                             |
-| https://github.com/MeetaGit/MeetaRules                             |             |       |                                                                                             |
-| https://github.com/ejiaogl/UnlockVIP                               |             |       |                                                                                             |
-| https://github.com/songyangzz/QuantumultX                          |             |       |                                                                                             |
-| https://github.com/Sunert/Script                                   |             |       |                                                                                             |
-| https://github.com/Peng-YM/QuanX                                   |             |       |                                                                                             |
-| https://github.com/DD-D1/2020scripts                               |             |       |                                                                                             |
-| https://github.com/chouchoui/QuanX                                 |             |       |                                                                                             |
-| https://github.com/id77/QuantumultX/tree/master/task               |             |       |                                                                                             |
-| https://github.com/barrym-chen/Script                              |             |       |                                                                                             |
-| https://github.com/yichahucha/surge/tree/master                    |             |       |                                                                                             |
-| https://github.com/CenBoMin/GithubSync                             |             |       |                                                                                             |
-| https://github.com/zmqcherish/proxy-script                         |             |       |                                                                                             |
-| https://github.com/sve1r/Rules-For-Quantumult-X                    |             |       |                                                                                             |
-|                                                                    |             |       |                                                                                             |
-| TODO - 京东                                                        |             |       |                                                                                             |
-|                                                                    |             |       |                                                                                             |
-| https://github.com/shufflewzc/faker2                               |             |       |                                                                                             |
-| https://github.com/shufflewzc/faker3                               |             |       |                                                                                             |
-| https://github.com/Gnuyoah/Thread                                  |             |       |                                                                                             |
-| https://github.com/KingRan/KR                                      |             |       |                                                                                             |
-| https://github.com/smiek2121/scripts                               |             |       |                                                                                             |
-| https://github.com/zero205/JD_tencent_scf                          |             |       |                                                                                             |
-| https://github.com/cdle/carry                                      |             |       |                                                                                             |
-| https://github.com/curtinlv/JD-Script                              |             |       |                                                                                             |
-| https://github.com/DovFork/jiulan                                  |             |       |                                                                                             |
-| https://github.com/6dylan6/jdpro                                   |             |       |                                                                                             |
-| https://github.com/Tsukasa007/my_script                            |             |       |                                                                                             |
-|                                                                    |             |       |                                                                                             |
-| TODO - 其它                                                        |             |       |                                                                                             |
-|                                                                    |             |       |                                                                                             |
-| https://github.com/Ariszy/Private-Script                           |             |       |                                                                                             |
-| https://github.com/I-am-R-E/Functional-Store-Hub                   |             |       |                                                                                             |
-| https://github.com/I-am-R-E/QuantumultX/                           |             |       |                                                                                             |
-| https://github.com/nameking77/Qx                                   |             |       |                                                                                             |
-| https://github.com/mieqq/mieqq/                                    |             |       |                                                                                             |
-| https://github.com/DecoAri/JavaScript                              |             |       |                                                                                             |
-| https://github.com/JoJoJotarou/myScript                            |             |       |                                                                                             |
-| https://gitlab.com/lodepuly/vpn_tool/                              |             |       |                                                                                             |
-| https://github.com/Maasea/sgmodule                                 |             |       |                                                                                             |
-| https://github.com/xream/scripts/                                  |             |       |                                                                                             |
-| https://github.com/fishingworld/something                          |             |       |                                                                                             |
-| https://github.com/GideonSenku/figma-image-upload/                 |             |       |                                                                                             |
-| https://github.com/telegram-sms/telegram-sms                       |             |       |                                                                                             |
-| https://github.com/NavePnow/next-tasks                             |             |       |                                                                                             |
-| https://github.com/0KABE/BeQX/tree/dev                             |             |       |                                                                                             |
-| https://github.com/ClydeTime/Quantumult                            |             |       |                                                                                             |
-| https://github.com/qulingyuan/robVeg                               |             |       |                                                                                             |
-| https://github.com/ddgksf2013/ddgksf2013                           |             |       |                                                                                             |
-| https://github.com/ddgksf2013/Profile                              |             |       |                                                                                             |
-| https://github.com/ddgksf2013/Rewrite                              |             |       |                                                                                             |
-| https://github.com/ddgksf2013/Scripts                              |             |       |                                                                                             |
+
+
+
+
+
+
+
+
+# zZPiglet
+https://raw.githubusercontent.com/zZPiglet/Task/master/zZPiglet.boxjs.json
+# ZCY01
+https://raw.githubusercontent.com/ZCY01/daily_scripts/main/zcy01.boxjs.json
+# DualSubs
+https://raw.githubusercontent.com/DualSubs/BoxJs/main/DualSubs.BoxJs.json
+# GetSomeFries
+https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/BoxJs/Fries.boxjs.beta.json
+# iRingo
+https://raw.githubusercontent.com/VirgilClyne/iRingo/main/BoxJs/iRingo.BoxJs.json
+
+
+# Sliverkiss
+https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/sliverkiss.boxjs.json
+# photonmang
+https://raw.githubusercontent.com/photonmang/quantumultX/master/photonmang.boxjs.json
+# toulanboy
+https://raw.githubusercontent.com/toulanboy/scripts/master/toulanboy.boxjs.json
+# songyangzz
+https://raw.githubusercontent.com/songyangzz/QuantumultX/master/syzzzf.box.json
+# id77
+https://raw.githubusercontent.com/id77/QuantumultX/master/box.json
+```
+
+|                         仓库                         | QuantumultX | Surge |  更新时间  |
+|------------------------------------------------------|-------------|-------|------------|
+| https://github.com/blackmatrix7/ios_rule_script      |             | ✓     | 2023-12-07 |
+| https://github.com/fishingworld/something            |             | ✓     | 2023-12-07 |
+| https://github.com/xream/scripts                     |             | ✓     | 2023-12-07 |
+| https://github.com/Maasea/sgmodule                   |             | ✓     | 2023-12-07 |
+| https://github.com/VirgilClyne/Cloudflare            |             | ✓     | 2023-12-07 |
+| https://github.com/Script-Hub-Org/Script-Hub         |             | ✓     | 2023-12-07 |
+| https://github.com/FoKit/Scripts                     |             | ✓     | 2023-12-07 |
+| https://github.com/evilbutcher/QuantumultX           |             | ✓     | 2023-12-07 |
+| https://github.com/sub-store-org/Sub-Store           |             | ✓     | 2023-12-07 |
+| https://github.com/app2smile/rules                   |             | ✓     | 2023-12-07 |
+| https://github.com/githubdulong/Script/              |             | ✓     | 2023-12-07 |
+| https://github.com/dompling/Script                   |             | ✓     | 2023-12-07 |
+| https://github.com/lowking/Scripts                   |             | ✓     | 2023-12-07 |
+| https://github.com/barrym-chen/Script                |             | ✓     | 2023-12-07 |
+| https://github.com/Sunert/Profiles                   |             | ✓     | 2023-12-07 |
+| https://github.com/Peng-YM/QuanX                     |             | ✓     | 2023-12-07 |
+| https://github.com/chouchoui/QuanX                   |             | ✓     | 2023-12-07 |
+| https://github.com/barrym-chen/Script                |             | ✓     | 2023-12-07 |
+| https://github.com/yichahucha/surge/tree/master      |             | ✓     | 2023-12-07 |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+| https://github.com/DivineEngine/Profiles/tree/master | ✓           | ✓     | 2023-12-07 |
+| https://github.com/Semporia/TikTok-Unlock            | ✓           | ✓     | 2023-12-07 |
+| https://github.com/LawrenceYep/ruleList              | ✓           | ✓     | 2023-12-07 |
+| https://github.com/zZPiglet/Task/tree/master         | ✓           |       | 2023-12-07 |
+| https://ooxx.be/js/                                  | ✓           |       | 2023-12-07 |
+| https://github.com/ZCY01/daily_scripts/tree/main     | ✓           |       | 2023-12-07 |
+| https://github.com/app2smile/rules                   | ✓           |       | 2023-12-07 |
+| https://github.com/iisams/Scripts                    | ✓           |       | 2023-12-07 |
+| https://github.com/DualSubs/Universal                | ✓           |       | 2023-12-07 |
+| https://github.com/VirgilClyne/GetSomeFries          | ✓           |       | 2023-12-07 |
+| https://github.com/VirgilClyne/iRingo                | ✓           |       | 2023-12-07 |
+| https://github.com/elecV2/QuantumultX-Tools          | ✓           |       | 2023-12-07 |
+| https://github.com/BiliUniverse/Universe             | ✓           | ✓     | 2023-12-07 |
+| https://github.com/banditlives/Scripting/tree/master | ✓           |       |            |
+| https://github.com/getsomecat/keywos                 |             |       |            |
+| https://github.com/leiyiyan/resource                 |             |       |            |
+| https://github.com/anyehttp/quantumult-x             |             |       |            |
+| https://github.com/Keywos/rule                       |             |       |            |
+| https://github.com/ClydeTime/Surge                   |             |       |            |
+| https://github.com/ClydeTime/Quantumult              |             |       |            |
+| https://gitlab.com/lodepuly/vpn_tool                 |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+| 需要处理 JS 脚本                                     |             |       |            |
+|                                                      |             |       |            |
+| https://github.com/mieqq/mieqq                       |             |       |            |
+| https://github.com/NobyDa/Script                     |             |       |            |
+| https://github.com/chavyleung/scripts                |             |       |            |
+| https://github.com/Yuheng0101/X                      |             |       |            |
+| https://github.com/Sliverkiss/GoodNight/tree/master  |             |       |            |
+| https://github.com/rucu6/QuanX/                      |             |       |            |
+| https://github.com/wf021325/qx                       |             |       |            |
+| https://github.com/qulingyuan/robVeg                 |             |       |            |
+| https://github.com/ddgksf2013/Scripts                |             |       |            |
+| https://github.com/ClydeTime/Quantumult              |             |       |            |
+| https://github.com/Crazy-Z7/Task                     |             |       |            |
+| https://github.com/LTribeSkyx/Script                 |             |       |            |
+| https://github.com/iepngs/Script                     |             |       |            |
+| https://github.com/photonmang/quantumultX/           |             |       |            |
+| https://github.com/toulanboy/scripts                 |             |       |            |
+| https://github.com/nzw9314/Scripting                 |             |       |            |
+| https://github.com/nzw9314/Profiles                  |             |       |            |
+| https://github.com/MeetaGit/MeetaRules               |             |       |            |
+| https://github.com/ejiaogl/UnlockVIP                 |             |       |            |
+| https://github.com/KOP-XIAO/QuantumultX              |             |       |            |
+| https://github.com/songyangzz/QuantumultX            |             |       |            |
+| https://github.com/DD-D1/2020scripts                 |             |       |            |
+| https://github.com/id77/QuantumultX                  |             |       |            |
+| https://github.com/WowYiJiu/Personal                 |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+| TODO                                                 |             |       |            |
+|                                                      |             |       |            |
+| https://github.com/CenBoMin/GithubSync               |             |       |            |
+| https://github.com/zmqcherish/proxy-script           |             |       |            |
+| https://github.com/sve1r/Rules-For-Quantumult-X      |             |       |            |
+| https://github.com/xzxxn777/Surge                    |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+| TODO - 京东                                          |             |       |            |
+|                                                      |             |       |            |
+| https://github.com/shufflewzc/faker2                 |             |       |            |
+| https://github.com/shufflewzc/faker3                 |             |       |            |
+| https://github.com/Gnuyoah/Thread                    |             |       |            |
+| https://github.com/KingRan/KR                        |             |       |            |
+| https://github.com/smiek2121/scripts                 |             |       |            |
+| https://github.com/zero205/JD_tencent_scf            |             |       |            |
+| https://github.com/cdle/carry                        |             |       |            |
+| https://github.com/curtinlv/JD-Script                |             |       |            |
+| https://github.com/DovFork/jiulan                    |             |       |            |
+| https://github.com/6dylan6/jdpro                     |             |       |            |
+| https://github.com/Tsukasa007/my_script              |             |       |            |
+|                                                      |             |       |            |
+| TODO - 其它                                          |             |       |            |
+|                                                      |             |       |            |
+| https://github.com/Ariszy/Private-Script             |             |       |            |
+| https://github.com/I-am-R-E/Functional-Store-Hub     |             |       |            |
+| https://github.com/I-am-R-E/QuantumultX/             |             |       |            |
+| https://github.com/nameking77/Qx                     |             |       |            |
+| https://github.com/mieqq/mieqq/                      |             |       |            |
+| https://github.com/DecoAri/JavaScript                |             |       |            |
+| https://github.com/JoJoJotarou/myScript              |             |       |            |
+| https://gitlab.com/lodepuly/vpn_tool/                |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+| TODOS (QuanX)                                        |             |       |            |
+|                                                      |             |       |            |
+| https://github.com/ddgksf2013/ddgksf2013             |             |       |            |
+| https://github.com/ddgksf2013/Profile                |             |       |            |
+| https://github.com/ddgksf2013/Rewrite                |             |       |            |
+| https://github.com/0KABE/BeQX/tree/dev               |             |       |            |
+| https://github.com/tidik/quanx                       |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
+|                                                      |             |       |            |
 
 
 
 ```
 https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/100269fc92d8ed607fd5f105c2c5b32876101ff1/dlm.js
 https://gist.githubusercontent.com/Sliverkiss/585daf69a0a6c7243db8993f5394a124/raw/youzan.js
+https://gist.githubusercontent.com/Sliverkiss/991a81be1fc8cf2a1937432be68f5521/raw/xxyx.js
+https://gist.githubusercontent.com/Sliverkiss/845cf469e4762afdc83c3949be006609/raw/pgsh.js
+https://gist.githubusercontent.com/Sliverkiss/df5dbbf01bc3acc3bccaf7880acd242b/raw/yht.js
+https://gist.githubusercontent.com/Sliverkiss/2b5acc2c4960dd06618c6912302c2c7f/raw/nodeseek.js
+https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js
+https://gist.githubusercontent.com/Sliverkiss/f1b7aa36b15506d6b6f895585b000fa2/raw/qdsnmc.js
+https://gist.githubusercontent.com/Sliverkiss/4d0e9572b99530b7cb0e7298622aa2a9/raw/naixue.js
+https://gist.githubusercontent.com/Sliverkiss/2b5acc2c4960dd06618c6912302c2c7f/raw/nodeseek.js
+https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js
+https://gist.githubusercontent.com/Sliverkiss/250a02315f0a2c99f42da3b3573375c8/raw/xcbwc.js
+https://gist.githubusercontent.com/YoshichikaTokyo/2fb31b8d7123dfcbd5d3d9ddfa34831f/raw/SakuraChatCookie.plugin
 https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/sliverkiss.gallery.json
 https://sharecuts.cn/shortcut/12366
+
+# 王者营地签到
+https://github.com/superggfun/smoba_LeanCloud
+
+
+https://gist.githubusercontent.com/Sliverkiss/8b4f5487e0f28786c7dec9c7484dcd5e/raw/teaMilk.js
+https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/teaMilk.png
+https://gist.githubusercontent.com/Sliverkiss/18bd01be356360a8065a21ea71685ad3/raw/sliverkiss.boxjs.json
 ```
+
+
+
+
+
+
+## QuantumultX
 
 ## Clash
 
@@ -236,3 +354,392 @@ CDN资源类的地址往往为了让用户快速下载到，会使用各式各�
 |------------|----------|---------------|
 | 国区       | 直连     | 直连          |
 | 美区       | 美国代理 | 直连/美国代理 |
+
+# TODOS
+
+```
+https://surgio.js.org/
+https://github.com/tindy2013/subconverter/blob/master/README-cn.md
+
+https://github.com/hly0928/Proxy-profiles/tree/master/Surge/Module
+https://surge.mitsea.com/rule/domain-based
+
+https://stackoverflow.com/questions/40803016/adding-networkextension-framework-in-xcode
+https://developer.apple.com/documentation/networkextension
+https://juejin.cn/post/6844903829146697742
+```
+
+## 介绍 - BoxJs
+
+```
+https://chavyleung.gitbook.io/boxjs/
+```
+
+
+## Sub-Store 教程
+
+```
+https://www.notion.so/Sub-Store-6259586994d34c11a4ced5c406264b46
+```
+## BoxJS
+
+BoxJS可帮助网络调试工具运行脚本时配置相关参数。
+
+### 安装
+
+对于Surge，可添加模块，地址如下。
+
+```
+// 稳定版
+https://gitee.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule
+
+// 测试版
+https://gitee.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.tf.sgmodule
+```
+
+对于Quantumult X，可添加重写，地址如下。
+
+```
+// 稳定版
+https://gitee.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.quanx.conf
+
+// 测试版
+https://gitee.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.quanx.tf.conf
+```
+
+对于Loon，可添加插件，地址如下。
+
+```
+// 稳定版
+https://gitee.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.loon.plugin
+
+// 测试版
+https://gitee.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.loon.tf.plugin
+```
+
+若需要更新BoxJS，更新调试工具的配置即可。
+
+### 使用
+
+用手机打开以下链接，即可进入BoxJS页面。打开后点击分享-添加到主屏幕，可供以后快速访问。
+
+```
+http://boxjs.com/
+```
+
+#### 添加订阅
+
+点击`订阅`，添加以下订阅。
+
+```
+https://raw.githubusercontent.com/toulanboy/scripts/master/toulanboy.boxjs.json
+https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/box.js.json
+https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/evilbutcher.boxjs.json
+https://raw.githubusercontent.com/zZPiglet/Task/master/zZPiglet.boxjs.json
+https://jdsharedresourcescdn.azureedge.net/jdresource/lxk0301.boxjs.json
+https://ooxx.be/js/box.json
+https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
+https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sunert.boxjs.json
+https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.json
+https://raw.githubusercontent.com/chouchoui/QuanX/master/vei.boxjs.json
+https://raw.githubusercontent.com/lowking/Scripts/master/lowking.boxjs.json
+https://raw.githubusercontent.com/songyangzz/QuantumultX/master/syzzzf.box.json
+https://raw.githubusercontent.com/toulanboy/scripts/master/toulanboy.boxjs.json
+https://raw.githubusercontent.com/id77/QuantumultX/master/box.json
+https://raw.githubusercontent.com/dompling/Script/master/dompling.boxjs.json
+https://raw.githubusercontent.com/CenBoMin/GithubSync/main/cenbomin.box.json
+https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/box/fries.boxjs.json
+https://raw.githubusercontent.com/DualSubs/DualSubs/main/box/DualSubs.box.json
+https://raw.githubusercontent.com/VirgilClyne/iRingo/main/box/iRingo.boxjs.json
+```
+
+#### 脚本配置
+
+当网络调试工具中运行的脚本要求配置BoxJs时，在BoxJs的搜索框输入脚本名称，并进行相关配置即可。
+
+#### 会话管理
+
+BoxJS可保存多个会话，每个会话可存储相应的Cookie信息。通过切换会话，可使同一脚本使用不同配置，从而实现多账号签到等功能。
+
+以京东多合一签到脚本为例，在BoxJS中打开该脚本配置，点击保存会话后即可保存当前的Cookie。删除当前Cookie并重新获取，完成后再次点击保存会话。通过应用不同的会话，即可对不同的账号进行签到。
+
+#### 配置备份
+
+可通过备份配置，完成配置在网络调试工具之间的迁移，如从Loon迁移到Quantumult X。
+
+点击我的-备份，生成全局变量，复制该值。需要导入配置时，点击我的-导入，复制刚才的值，点击还原即可。
+
+#### 壁纸
+
+点击应用-内置应用-偏好设置，在`背景图片清单`中复制以下内容即可。图片可根据需求替换。
+
+```
+无背景,
+跟随系统,跟随系统
+明亮,https://64.media.tumblr.com/451bca19ad0b695c08b54b4287e4f935/tumblr_nb70h5f6XN1rnbw6mo2_r1_1280.gifv
+暗黑,https://i.pinimg.com/originals/94/4a/85/944a85804c97622973fbae194ddc27ac.gif
+随机,https://uploadbeta.com/api/pictures/random
+推女郎,https://uploadbeta.com/api/pictures/random/?key=推女郎
+性感,https://uploadbeta.com/api/pictures/random/?key=性感
+车模,https://uploadbeta.com/api/pictures/random/?key=车模
+美腿,https://uploadbeta.com/api/pictures/random/?key=美腿
+美女,https://uploadbeta.com/api/pictures/random/?key=美女
+手机妹子,http://api.btstu.cn/sjbz/zsy.php
+手机美女,http://api.btstu.cn/sjbz/?m_lx=suiji
+```
+
+## Sub-store
+
+Sub-store可用于订阅转换。仓库如下。
+
+```
+https://github.com/Peng-YM/Sub-Store
+```
+
+### 安装
+
+对于Loon，可点击配置-插件-`+`，添加以下插件。确保PROXY栏右侧区域不出现任何文字，点击保存即可。
+
+```
+https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Loon.plugin
+```
+
+也可在配置文件添加以下内容。
+
+```
+[MITM]
+hostname=sub.store
+
+[Script]
+http-request https?:\/\/sub\.store script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.js, requires-body=true, timeout=120, tag=Sub-Store
+```
+
+对于Surge，可添加以下模块订阅。
+
+```
+https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Surge.sgmodule
+```
+
+对于Quantumult X，可在配置文件添加以下内容。
+
+```
+[http_backend]
+https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.js, tag=Sub-Store, path=/, enabled=true
+```
+
+### 使用
+
+对于Loon和Surge，打开以下网页即可。
+
+```
+https://sub-store.vercel.app
+```
+
+对于Quantumult X，需要从JSBox的Erots商店获取Sub-store脚本，然后运行JSBox版本。点击设置，查看环境是否为Quantumult X，若不是则需要切换为Quantumult X。
+
+#### 添加订阅
+
+点击订阅-`+`，填写订阅名称和地址，设置好后点击该条目可以看到订阅中包含的节点。
+
+#### 复制订阅
+
+可将Sub-store中配置好的的订阅同步到网络调试工具。以Loon为例，点击订阅，选择需要使用的订阅，并点击复制，回到Loon并添加该订阅即可。
+
+#### 组合订阅
+
+可以通过点击订阅-组合订阅-`+`，将多个订阅合并成一个订阅。
+
+#### 本地解析
+
+选择需要修改的订阅，点击编辑，即可对节点进行筛选。除常用选项外，还可以添加节点操作，可以添加多个同一类型的过滤模式，将会按照顺序执行。
+
+##### 正则过滤器
+
+对于正则过滤器，在保留模式下，关键词过滤只能单个匹配，多关键词则需要添加多个过滤器，而过滤模式则可匹配多个关键词。
+
+##### 正则重命名
+
+可以一次操作多个关键词。
+
+##### 脚本操作
+
+脚本操作可以为远程脚本或者本地脚本，脚本库如下。
+
+```
+https://github.com/Peng-YM/Sub-Store/tree/master/scripts
+```
+
+#### 云备份
+
+需要获取Github Token，其中Token的权限为repo和gist。
+
+#### 同步配置
+
+点击同步-`+`以添加配置。配置后点击复制，即可在对应的网络调试工具中使用该链接导入配置文件。
+
+
+
+## 配置文件与规则
+
+Loon与Surge 3的配置文件一般通用。进入并挑选好所需规则集后，点开并点击Raw，复制链接到Loon并导入即可。
+
+### Loon
+
+```
+https://github.com/nzw9314/Loon
+```
+
+### Shadowrocket
+
+```
+https://github.com/h2y/Shadowrocket-ADBlock-Rules
+```
+
+### Quantumult X
+
+```
+https://github.com/nzw9314/QuantumultX
+https://github.com/Orz-3/QuantumultX
+https://github.com/evilbutcher/Quantumult_X
+https://github.com/KOP-XIAO/QuantumultX/
+https://github.com/solikethis/QuantumultX-demo/
+```
+
+### Surge
+
+```
+https://github.com/voneo/conf/tree/master/rule
+https://github.com/nzw9314/Surge
+https://github.com/Choler/Surge
+https://github.com/Blankwonder/surge-list
+https://github.com/KOP-XIAO/Surge-Rules
+https://github.com/nzw9314/surge-2/
+```
+
+### 全平台
+
+```
+https://github.com/lhie1/Rules/tree/master
+https://github.com/wlaotou/Profiles
+https://github.com/limbopro/Profiles/tree/master
+https://github.com/yxiaocai/DivineEngine
+https://github.com/NavePnow/Profiles
+https://github.com/DivineEngine/Profiles/tree/master
+```
+
+## 脚本
+
+### Quantumult X
+
+```
+https://github.com/jpcnmm/Scripting
+https://github.com/elecV2/QuantumultX-Tools
+```
+
+### Surge
+
+```
+https://github.com/yichahucha/surge/tree/master
+https://github.com/MeetaGit/MeetaRules
+https://github.com/onewayticket255/Surge-Script
+```
+
+### 全平台
+
+```
+https://github.com/jpcnmm/Scripting
+https://github.com/chavyleung/scripts
+https://github.com/Peng-YM/QuanX
+https://github.com/NobyDa/Script/tree/master
+https://github.com/zZPiglet/Task/tree/master
+```
+
+## 任务
+
+### Quantumult X
+
+```
+https://github.com/Orz-3/QuantumultX/tree/master/Task
+```
+
+### Surge
+
+```
+https://github.com/MeetaGit/MeetaRules/tree/m%CE%B1ster
+```
+
+## 模块
+
+### Surge
+
+```
+https://github.com/onewayticket255/Surge-Script
+```
+
+## 图标组
+
+### Quantumult X
+
+```
+https://github.com/elecV2/QuantumultX-ICON
+https://github.com/Koolson/Qure
+```
+
+### 全平台
+
+```
+https://github.com/Orz-3/mini
+https://github.com/Orz-3/task
+https://github.com/Orz-3/face
+https://github.com/58xinian/icon
+```
+
+# 相关说明
+
+## 延迟测试
+
+Surge、Shadowrocket、Quantumult的测试方式不同，因此结果差距较大。
+
+Surge测试的是从目标policy返回http response header数据包的时间。Shadowrocket支持ICMP/TCP两种测速方式，默认为ICMP模式，即Ping。Quantumult采用SSH测速模式（22端口）。
+
+## Q-Search-All-in-One复写
+
+开启该复写后，将Safari默认搜索引擎改为DuckDuckGo，然后在浏览器地址栏输入`gm [关键词]`可以直接Google搜图，输入`yd [关键词]`可以有道翻译。所有指令如下。
+
+|      指令     |          作用          |
+|---------------|------------------------|
+| gh [关键词]   | GitHub搜索             |
+| gm [关键词]   | Google图片搜索         |
+| sof [关键词]  | Stack Overflow搜索     |
+| se [关键词]   | StackExchange搜索      |
+| wiki [关键词] | 维基百科搜索           |
+| wk [关键词]   | 维基中文搜索           |
+| mg [关键词]   | Magi搜索               |
+| tf [关键词]   | Google搜索TestFlight   |
+| yd [关键词]   | 有道词典搜索           |
+| trc [关键词]  | Google译至中           |
+| tre [关键词]  | Google译至英           |
+| trj [关键词]  | Google译至日           |
+| db [关键词]   | 豆瓣搜索               |
+| zh [关键词]   | 知乎搜索               |
+| wb [关键词]   | 微博搜索               |
+| wx [关键词]   | 微信搜索               |
+| rd [关键词]   | Reddit搜索             |
+| ssp [关键词]  | 少数派搜索             |
+| csdn [关键词] | CSDN搜索               |
+| zdm [关键词]  | 什么值得买搜索         |
+| amz [关键词]  | 亚马逊搜索             |
+| jd [关键词]   | 京东搜索               |
+| tb [关键词]   | 淘宝搜索               |
+| tm [关键词]   | 天猫搜索               |
+| ac [关键词]   | Acfun搜索              |
+| bli [关键词]  | 哔哩哔哩搜索           |
+| ytb [关键词]  | YouTube搜索            |
+| ph [关键词]   | PornHub搜索            |
+| gd [关键词]   | Google Drive资源       |
+| tgd [关键词]  | TG搜索Google Drive资源 |
+| bi [关键词]   | 必应搜索               |
+| bd [关键词]   | 百度搜索               |
+| ddg [关键词]  | DuckDuckGo搜索         |
+| [关键词]      | Google搜索             |
+
