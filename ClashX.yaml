@@ -8,9 +8,9 @@ external-controller: 127.0.0.1:9090
 proxy-providers:
   provider:
     type: http
-    url: https://cdn.jsdelivr.net/gh/paytonguan/outoflimit@master/list_clash.yaml
-    interval: 3600
-    path: ./proxyset/provider.yaml
+    url: https://cdn.jsdelivr.net/gh/guanpeiheng1/outoflimit@master/Clash/empty-provider.yaml
+    interval: 86400
+    path: ./ProxySet/provider.yaml
     health-check:
       enable: true
       interval: 600
@@ -22,92 +22,174 @@ proxy-groups:
     type: select
     use:
       - provider
+
+  - name: 节点选择
+    type: select
     proxies:
       - 延迟测试
       - 健康检测
       - 负载均衡
+      - PROXY
       - DIRECT
 
   - name: 漏网之鱼
     type: select
-    use:
-      - provider
     proxies:
       - DIRECT
+      - 节点选择
       - PROXY
-      - REJECT
+      - Hong Kong
+      - Taiwan
+      - Korea
+      - United States
+      - Germany
+      - United Kingdom
+      - Japan
 
   - name: 国外网站
     type: select
-    use:
-      - provider
     proxies:
+      - 节点选择
       - PROXY
       - DIRECT
-      - REJECT
+      - Hong Kong
+      - Taiwan
+      - Korea
+      - United States
+      - Germany
+      - United Kingdom
+      - Japan
 
   - name: 国外影视
     type: select
-    use:
-      - provider
     proxies:
+      - 节点选择
       - PROXY
       - DIRECT
-      - REJECT
+      - Hong Kong
+      - Taiwan
+      - Korea
+      - United States
+      - Germany
+      - United Kingdom
+      - Japan
 
   - name: PayPal
     type: select
-    use:
-      - provider
     proxies:
+      - United States
+      - 节点选择
       - PROXY
       - DIRECT
-      - REJECT
+      - Hong Kong
+      - Taiwan
+      - Korea
+      - Germany
+      - United Kingdom
+      - Japan
+
+  - name: OpenAI
+    type: select
+    proxies:
+      - United States
+      - 节点选择
+      - PROXY
+      - DIRECT
+      - Hong Kong
+      - Taiwan
+      - Korea
+      - Germany
+      - United Kingdom
+      - Japan
 
   - name: Netflix
     type: select
-    use:
-      - provider
     proxies:
+      - 节点选择
       - PROXY
       - DIRECT
-      - REJECT
+      - Hong Kong
+      - Taiwan
+      - Korea
+      - United States
+      - Germany
+      - United Kingdom
+      - Japan
 
   - name: Spotify
     type: select
-    use:
-      - provider
     proxies:
+      - 节点选择
       - PROXY
       - DIRECT
-      - REJECT
+      - Hong Kong
+      - Taiwan
+      - Korea
+      - United States
+      - Germany
+      - United Kingdom
+      - Japan
 
   - name: 广告拦截
     type: select
-    use:
-      - provider
     proxies:
       - REJECT
-      - PROXY
       - DIRECT
 
   - name: 运营商劫持
     type: select
-    use:
-      - provider
     proxies:
-      - DIRECT
-      - PROXY
       - REJECT
+      - DIRECT
+
 
   - name: 隐私跟踪
     type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  - name: Hong Kong
+    type: select
     use:
       - provider
-    proxies:
-      - DIRECT
-      - PROXY
-      - REJECT
+    filter: "香港|HK|hk"
+
+  - name: Taiwan
+    type: select
+    use:
+      - provider
+    filter: "台湾|TW|台灣|tw"
+
+  - name: Korea
+    type: select
+    use:
+      - provider
+    filter: "韩国|KO|韓國|KR|ko|kr"
+
+  - name: United States
+    type: select
+    use:
+      - provider
+    filter: "美国|US|美國"
+
+  - name: Germany
+    type: select
+    use:
+      - provider
+    filter: "德国|DE|德國"
+
+  - name: United Kingdom
+    type: select
+    use:
+      - provider
+    filter: "英国|UK|英國"
+
+  - name: Japan
+    type: select
+    use:
+      - provider
+    filter: "日本|JP|樱花云|櫻花雲"
 
   - name: 延迟测试
     type: url-test
@@ -130,62 +212,68 @@ proxy-groups:
     use:
       - provider
 
-
 rule-providers:
-  Advertising:
+  Rule-Advertising:
     type: http
     behavior: classical
-    path: ./RuleSet/Guard/Advertising.yaml
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Advertising.yaml
+    path: ./RuleSet/Advertising.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising.yaml
     interval: 86400
 
-  Hijacking:
+  Rule-Hijacking:
     type: http
     behavior: classical
-    path: ./RuleSet/Guard/Hijacking.yaml
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Hijacking.yaml
+    path: ./RuleSet/Hijacking.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Hijacking/Hijacking.yaml
     interval: 86400
 
-  Privacy:
+  Rule-Privacy:
     type: http
     behavior: classical
-    path: ./RuleSet/Guard/Privacy.yaml
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Privacy.yaml
+    path: ./RuleSet/Privacy.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Privacy/Privacy.yaml
     interval: 86400
 
-  ForPayPal:
+  Rule-PayPal:
     type: http
     behavior: classical
-    path: ./RuleSet/Extra/PayPal.yaml
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/PayPal.yaml
+    path: ./RuleSet/PayPal.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/PayPal/PayPal.yaml
     interval: 86400
 
-  ForNetflix:
+  Rule-OpenAI:
     type: http
     behavior: classical
-    path: ./RuleSet/StreamingMedia/Video/Netflix.yaml
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Video/Netflix.yaml
+    path: ./RuleSet/OpenAI.yaml
+    url: https://cdn.jsdelivr.net/gh/ericz15/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.yaml
     interval: 86400
 
-  ForSpotify:
+  Rule-Netflix:
     type: http
     behavior: classical
-    path: ./RuleSet/StreamingMedia/Music/Spotify.yaml
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Music/Spotify.yaml
+    path: ./RuleSet/Netflix.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix.yaml
     interval: 86400
 
-  Streaming:
+  Rule-Spotify:
     type: http
     behavior: classical
-    path: ./RuleSet/StreamingMedia/Streaming.yaml
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Streaming.yaml
+    path: ./RuleSet/Spotify.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Spotify/Spotify.yaml
     interval: 86400
 
-  Global:
+  Rule-GlobalMedia:
+    type: http
+    behavior: classical
+    path: ./RuleSet/GlobalMedia.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia.yaml
+    interval: 86400
+
+  Rule-Global:
     type: http
     behavior: classical
     path: ./RuleSet/Global.yaml
-    url: https://cdn.jsdelivr.net/gh/DivineEngine/Profiles@master/Clash/RuleSet/Global.yaml
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Global/Global.yaml
     interval: 86400
 
 rules:
@@ -201,14 +289,15 @@ rules:
   - IP-CIDR,119.28.28.28/32,DIRECT
   - IP-CIDR,182.254.116.0/24,DIRECT
 
-  - RULE-SET,Advertising,广告拦截
-  - RULE-SET,Hijacking,运营商劫持
-  - RULE-SET,Privacy,隐私跟踪
-  - RULE-SET,ForPayPal,PayPal
-  - RULE-SET,ForNetflix,Netflix
-  - RULE-SET,ForSpotify,Spotify 
-  - RULE-SET,Streaming,国外影视
-  - RULE-SET,Global,国外网站
+  - RULE-SET,Rule-Advertising,广告拦截
+  - RULE-SET,Rule-Hijacking,运营商劫持
+  - RULE-SET,Rule-Privacy,隐私跟踪
+  - RULE-SET,Rule-PayPal,PayPal
+  - RULE-SET,Rule-OpenAI,OpenAI
+  - RULE-SET,Rule-Netflix,Netflix
+  - RULE-SET,Rule-Spotify,Spotify 
+  - RULE-SET,Rule-GlobalMedia,国外影视
+  - RULE-SET,Rule-Global,国外网站
 
   - GEOIP,CN,DIRECT
   - MATCH,漏网之鱼

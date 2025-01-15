@@ -1,0 +1,7 @@
+proxies:
+  - name: EMPTY
+    type: trojan
+    server: EMPTY
+    port: 3462
+    password: EMPTY
+    sni: 1.2.3.4
