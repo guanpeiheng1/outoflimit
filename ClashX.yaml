@@ -108,6 +108,15 @@ proxy-groups:
       - DIRECT
       - PROXY
       - REJECT
+  
+  - name: GPT
+    type: select
+    use:
+      - provider
+    proxies:
+      - DIRECT
+      - PROXY
+      - REJECT
 
   - name: 延迟测试
     type: url-test
@@ -196,6 +205,13 @@ rules:
   - IP-CIDR,100.64.0.0/10,DIRECT
   - IP-CIDR,224.0.0.0/4,DIRECT
   - IP-CIDR,fe80::/10,DIRECT
+
+  # gpt
+  - DOMAIN-SUFFIX,openai.com,GPT
+  - DOMAIN-SUFFIX,auth0.com,GPT
+  - DOMAIN-SUFFIX,bing.com,GPT
+  - DOMAIN-SUFFIX,live.com,GPT
+  - DOMAIN-SUFFIX,chatgpt.com,GPT
 
   # Tencent
   - IP-CIDR,119.28.28.28/32,DIRECT
