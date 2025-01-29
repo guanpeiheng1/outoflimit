@@ -109,15 +109,6 @@ proxy-groups:
       - PROXY
       - REJECT
   
-  - name: GPT
-    type: select
-    use:
-      - provider
-    proxies:
-      - DIRECT
-      - PROXY
-      - REJECT
-
   - name: 延迟测试
     type: url-test
     url: http://www.gstatic.com/generate_204
