@@ -32,16 +32,12 @@ Quantumult的策略无法使用正则表达式，只能手动选择节点以创�
 | https://github.com/DivineEngine/Profiles/tree/master | ✓    | ✓    |      |
 | https://github.com/Tartarus2014/Loon-Script          |      | ✓    | ✓    |
 
-## Surge
+#
+ IPA Install
 
-|                          仓库                          | 分流 | 重写 | 任务 |
-|--------------------------------------------------------|------|------|------|
-| https://github.com/geekdada/surge-list/tree/master     | -    |      |      |
-| https://github.com/MeetaGit/MeetaRules                 |      | -    |      |
-| https://github.com/Choler/Surge                        |      | -    |      |
-| https://github.com/Marcio2536/MySurge/                 |      | -    |      |
-| https://github.com/congcong0806/surge-list/tree/master |      | -    |      |
-| https://github.com/ikanam/Surge-Scripts                |      | -    |      |
-|                                                        |      |      |      |
+将IPA放到OneDrive上，通过plist的方式达到手机上在线安装IPA的效果。
 
-
+```
+# Tiktok
+itms-services://?action=download-manifest&url=https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdHR1Q2VveV9ucUJoUS1tU0hoWmdERE1TWTBFP2U9Z205ajU3.plist
+```
