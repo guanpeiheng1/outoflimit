@@ -200,7 +200,7 @@ https://github.com/blackmatrix7/ios_rule_script
 | https://github.com/Marcio2536/MySurge/                 |      |          |            |          |               |          |        |          |   |
 | https://github.com/congcong0806/surge-list/tree/master |      |          |            |          |               |          |        |          |   |
 | https://github.com/ikanam/Surge-Scripts                |      |          |            |          |               |          |        |          |   |
-|                                                        |      |          |            |          |               |          |        |          |   |
+| https://github.com/mw418/Loon                          |      |          |            |          |               |          |        |          |   |
 |                                                        |      |          |            |          |               |          |        |          |   |
 |                                                        |      |          |            |          |               |          |        |          |   |
 |                                                        |      |          |            |          |               |          |        |          |   |
@@ -232,6 +232,7 @@ https://gist.githubusercontent.com/Sliverkiss/2b5acc2c4960dd06618c6912302c2c7f/r
 https://gist.githubusercontent.com/Sliverkiss/6b4da0d367d13790a9fd1d928c82bdf8/raw/dlm.js
 https://gist.githubusercontent.com/Sliverkiss/250a02315f0a2c99f42da3b3573375c8/raw/xcbwc.js
 https://gist.githubusercontent.com/Sliverkiss/2b5acc2c4960dd06618c6912302c2c7f/raw/nodeseek.js
+https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/raw/alicloud.js
 https://gist.githubusercontent.com/YoshichikaTokyo/2fb31b8d7123dfcbd5d3d9ddfa34831f/raw/SakuraChatCookie.plugin
 https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/sliverkiss.gallery.json
 https://sharecuts.cn/shortcut/12366
