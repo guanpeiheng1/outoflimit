@@ -167,7 +167,7 @@ https://github.com/blackmatrix7/ios_rule_script
 | https://github.com/Orz-3/QuantumultX                   |      |          |            |          |               |          |        |          |   |
 | https://github.com/MeetaGit/MeetaRules/tree/master     |      |          |            |          |               |          |        |          |   |
 | https://github.com/onewayticket255/Surge-Script        |      |          |            |          |               |          |        |          |   |
-|                                                        |      |          |            |          |               |          |        |          |   |
+| https://github.com/Yu9191/Rewrite                      |      |          |            |          |               |          |        |          |   |
 |                                                        |      |          |            |          |               |          |        |          |   |
 |                                                        |      |          |            |          |               |          |        |          |   |
 | TODO - 京东                                            |      |          |            |          |               |          |        |          |   |
