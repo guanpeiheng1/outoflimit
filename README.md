@@ -12,6 +12,9 @@ https://cdn.jsdelivr.net/gh/guanpeiheng1/outoflimit@master/Shadowrocket.conf
 
 # ClashX
 https://cdn.jsdelivr.net/gh/guanpeiheng1/outoflimit@master/ClashX.yaml
+
+# Loon
+https://cdn.jsdelivr.net/gh/guanpeiheng1/outoflimit@master/Loon.conf
 ```
 
 开启后可将以下网站添加到主屏幕。
@@ -427,7 +430,7 @@ BoxJS可保存多个会话，每个会话可存储相应的Cookie信息。通过
 
 #### 壁纸
 
-点击应用-内置应用-偏好设置，在`背景图片清单`中复制以下内容即可。图片可根据需求替换。
+点击应用-内置应用-偏好设置，在 `背景图片清单` 中复制以下内容即可。图片可根据需求替换。
 
 ```
 无背景,
